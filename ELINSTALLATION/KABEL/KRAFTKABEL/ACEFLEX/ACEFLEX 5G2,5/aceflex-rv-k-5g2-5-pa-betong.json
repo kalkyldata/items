@@ -1,0 +1,54 @@
+{
+  "itm_name": "ACEFLEX 5G2,5 PÅ BETONG",
+  "itm_description": "ACEFLEX 5G2,5 på betong, elementbetong, tegel, lättbetong eller stål tom 5 mm inklusive klammer.",
+  "itm_image": "images/images_articles/aceflex5.jpg",
+  "itm_keywords": [
+    "KABEL",
+    "koppar",
+    "kopparkabel",
+    "aceflex rv-k",
+    "SVART",
+    "ES-N1XV-K",
+    "ACEFLEX RV-K 5G2",
+    "PÅ VÄGG",
+    "KLAMRAD"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "SKRUVCLIPS 8-12 SVART",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 5.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1504309",
+      "tsk_material_name": "SKRUVCLIPS 8-12 SVART",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 288.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "ACEFLEX 5G2,5 PÅ BETONG",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207518102",
+      "tsk_work_description": "LSP KABLAR BETONG T O M 2,5 KVMM",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.12,
+      "tsk_material_number": "0004245",
+      "tsk_material_name": "ACEFLEX-PURE 5G2,5 T500",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 56.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

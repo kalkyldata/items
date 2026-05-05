@@ -1,0 +1,52 @@
+{
+  "itm_name": "ACEFLEX 3G2,5 I MARK",
+  "itm_description": "ACEFLEX 3G2,5 I MARK, KABELGRAV ELLER ÖPPEN KANAL INKLUSIVE MARKERINGSBAND.",
+  "itm_image": "images/images_articles/aceflex5.jpg",
+  "itm_keywords": [
+    "KABEL",
+    "koppar",
+    "kopparkabel",
+    "aceflex rv-k",
+    "SVART",
+    "ES-N1XV-K",
+    "ACEFLEX RV-K 3G2"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "KABELMARKERINGSBAND 170mm",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "0661019",
+      "tsk_material_name": "KABELSKYDD SPN 170/50M GUL",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 19.5,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "ACEFLEX 3G2,5 I MARK",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207518109",
+      "tsk_work_description": "LSP KABLAR ÖPPEN KANAL T O M2,5KVMM",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "0004225",
+      "tsk_material_name": "ACEFLEX-PURE 3G2,5 T500",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 37.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
