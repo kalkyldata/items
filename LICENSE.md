@@ -1,4 +1,4 @@
-# Kalkyldata Data License (KDL) v1.1
+# Kalkyldata Data License (KDL) v1.2
 
 Copyright (c) 2026 Kalkyldata
 
@@ -24,7 +24,7 @@ Ownership and all intellectual property rights in the original files remain with
 
 This license does not grant any trademark, branding or naming rights related to Kalkyldata.
 
-This license applies to all versions and releases of the files distributed under KDL v1.1. If Kalkyldata publishes a revised license version, previously distributed files remain governed by the license version under which they were originally released, unless the recipient agrees in writing to the updated terms.
+This license applies to all files in this repository regardless of when they were first published.
 
 The files are provided "as is", without warranty of any kind, express or implied.
 
