@@ -1,0 +1,33 @@
+{
+  "itm_name": "TVINNAD FQ 4G1,5 I RÖR",
+  "itm_description": "TVINNAD FQ 4G1,5 i befintligt rör",
+  "itm_image": "images/images_articles/Tvinnad-FQ.jpg",
+  "itm_keywords": [
+    "KABEL",
+    "CPR",
+    "FK",
+    "HALOGENFRI",
+    "H07Z1-R"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "TVINNAD FQ 4G1,5 I RÖR",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207501120",
+      "tsk_work_description": "TVINNAD FK 3,4,5-LEDARE",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.03,
+      "tsk_material_number": "0442067",
+      "tsk_material_name": "FQ TWIN-PURE 4G1,5 B300",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 28.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
