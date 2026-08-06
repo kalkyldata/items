@@ -1,0 +1,33 @@
+{
+  "itm_name": "EXQJ 3X2,5/2,5 I KABELSKYDDSRÖR",
+  "itm_description": "EXQJ 3X2,5/2,5 I KABELSKYDDSRÖR ELLER I BLOCKERAD KANAL.",
+  "itm_image": "images/images_articles/ekkj3.jpg",
+  "itm_keywords": [
+    "CPR",
+    "EKKJ",
+    "SVART",
+    "HALOGENFRI",
+    "SE-N1XCZ1-U"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "EXQJ 3X2,5/2,5 I KABELSKYDDSRÖR",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207518106",
+      "tsk_work_description": "LSP KABLAR BÄRLINA T O M 2,5KVMM",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.04,
+      "tsk_material_number": "0001518",
+      "tsk_material_name": "EXQJ PURE 3X2,5/2,5 T2000",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 60.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
