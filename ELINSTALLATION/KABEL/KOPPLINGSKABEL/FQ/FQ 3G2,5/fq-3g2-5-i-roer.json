@@ -1,0 +1,67 @@
+{
+  "itm_name": "FQ 3G2,5 I RÖR",
+  "itm_description": "FQ 3G2,5 i befintligt rör",
+  "itm_image": "images/images_articles/FK.jpg",
+  "itm_keywords": [
+    "KABEL",
+    "CPR",
+    "FK",
+    "HALOGENFRI",
+    "H07Z1-R"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "FQ 2,5 GRÖNGUL I RÖR",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "(ATL207501100)/10",
+      "tsk_work_description": "FK RK T O M 2.5KVMM",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.01,
+      "tsk_material_number": "0435392",
+      "tsk_material_name": "FQ-PURE 2,5 G/G R100",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 9.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "FQ 2,5 BLÅ I RÖR",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "(ATL207501100)/10",
+      "tsk_work_description": "FK RK T O M 2.5KVMM",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.01,
+      "tsk_material_number": "0435372",
+      "tsk_material_name": "FQ-PURE 2,5 BLÅ R100",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 9.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "FQ 2,5 BRUN I RÖR",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "(ATL207501100)/10",
+      "tsk_work_description": "FK RK T O M 2.5KVMM",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.01,
+      "tsk_material_number": "0435382",
+      "tsk_material_name": "FQ-PURE 2,5 BRUN R100",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 9.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
