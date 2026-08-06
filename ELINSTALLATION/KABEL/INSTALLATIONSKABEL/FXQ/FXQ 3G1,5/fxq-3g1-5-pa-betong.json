@@ -1,0 +1,50 @@
+{
+  "itm_name": "FXQ 3G1,5 PÅ BETONG",
+  "itm_description": "FXQ 3G1,5 på betong, elementbetong, tegel, lättbetong eller stål tom 5 mm inklusive klammer.",
+  "itm_image": "images/images_articles/FXQ_300500V.jpg",
+  "itm_keywords": [
+    "KABEL",
+    "EQQ-LIGHT",
+    "EQQ-LIGHT 3G1",
+    "PÅ VÄGG",
+    "KLAMRAD"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "SKRUVCLIPS 7-10 VIT",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 5.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1504306",
+      "tsk_material_name": "SKRUVCLIPS 7-10 VIT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 274.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "FXQ 3G1,5 PÅ BETONG",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207510101",
+      "tsk_work_description": "INST KABLAR BETONG T O M 2,5KVMM",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.12,
+      "tsk_material_number": "0454602",
+      "tsk_material_name": "FXQ-PURE 3G1,5 R100",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 35.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
