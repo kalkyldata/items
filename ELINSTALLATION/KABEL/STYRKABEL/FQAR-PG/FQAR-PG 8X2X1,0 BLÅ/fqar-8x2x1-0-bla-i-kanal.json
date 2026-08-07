@@ -1,0 +1,35 @@
+{
+  "itm_name": "FQAR-PG 8X2X1,0 BLÅ I KANAL",
+  "itm_description": "FQAR-PG 8X2X1,0 blå i matar-, kabel-, fönsterbänks- eller installationskanal.",
+  "itm_image": "images/images_articles/FQAR-PG_150250V.jpg",
+  "itm_keywords": [
+    "EGENSÄKER KRETS",
+    "EX-KABEL",
+    "BLÅ FQAR",
+    "BLÅ STYRKABEL",
+    "HALOGENFRI",
+    "STYRKABEL",
+    "FQAR 8X2X1"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "FQAR-PG 8X2X1,0 BLÅ I KANAL",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207536130",
+      "tsk_work_description": "KABEL TOM 16 MM SPEC 0",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.04,
+      "tsk_material_number": "0119530",
+      "tsk_material_name": "FQAR-PG PURE 8X2X1 BLÅ",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 121.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
