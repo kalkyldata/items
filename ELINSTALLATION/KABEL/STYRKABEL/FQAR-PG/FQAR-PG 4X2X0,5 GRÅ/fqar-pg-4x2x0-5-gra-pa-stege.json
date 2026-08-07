@@ -1,0 +1,64 @@
+{
+  "itm_name": "FQAR-PG 4X2X0,5 GRÅ PÅ STEGE",
+  "itm_description": "FQAR-PG 4x2x0,5 grå på vertikal eller horisontell kabelstege eller kabelhylla inklusive buntband.",
+  "itm_image": "images/images_articles/FQAR-PG_150250V.jpg",
+  "itm_keywords": [
+    "HALOGENFRI",
+    "STYRKABEL"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "BUNTBAND 300 mm",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 3.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1516084",
+      "tsk_material_name": "BUNTBAND T120I 100 ST",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 328.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "TILLÄGG FÖR NAJNING AV AV TELEKABEL PÅ STEGE",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207538100",
+      "tsk_work_description": "NAJNING ENSTAKA KABEL",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.01,
+      "tsk_material_number": "",
+      "tsk_material_name": "",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.0,
+      "tsk_material_user_price": 0.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "FQAR-PG 4X2X0,5 GRÅ PÅ STEGE",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207536111",
+      "tsk_work_description": "KABEL TOM 10 MM SPEC 1",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.03,
+      "tsk_material_number": "0119320",
+      "tsk_material_name": "FQAR-PG PURE 4X2X0,5 GRÅ",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 39.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
