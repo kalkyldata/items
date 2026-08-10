@@ -1,0 +1,27 @@
+{
+  "itm_name": "DATAKABEL KAT 6A F/UTP I RÖR",
+  "itm_description": "HALOGENFRI DATAKABEL KAT 6A F/UTP I BEFINTLIGT RÖR",
+  "itm_image": "",
+  "itm_keywords": [],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "DATAKABEL KAT 6A F/UTP I RÖR",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207537100",
+      "tsk_work_description": "DATA KABEL TOM 10MM",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "4933730",
+      "tsk_material_name": "KAT 6A F/UTP 4P BL? T1000",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 8.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
