@@ -1,0 +1,35 @@
+{
+  "itm_name": "FQ 1,5 DRAGTRÅD I RÖR",
+  "itm_description": "ENKELLEDARE FQ 1,5I BEFINTLIGT RÖR",
+  "itm_image": "",
+  "itm_keywords": [
+    "KABEL",
+    "koppar",
+    "kopparkabel",
+    "FK",
+    "H07V-R",
+    "FK 2X1",
+    "5 I RÖR"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "FQ 1,5 SVART DRAGTRÅD I RÖR",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207503100",
+      "tsk_work_description": "DRAGTRÅD I TOMRÖR",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "0435122",
+      "tsk_material_name": "FQ-PURE 1,5 SVART R100",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 5.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
