@@ -1,19 +1,14 @@
 # -----------------------------------------------------------------------
-# Masterprislistan - innehåller grossistens inköpspriser och rabattkoder.
-# Ska ALDRIG committas till Git, oavsett om repot är privat eller publikt.
+# private-data/ innehåller masterprislistan (grossistens inköpspriser och
+# rabattkoder) och genererade rapporter (kan innehålla interna
+# produktnamn/artikelnummer). Detta är kommersiellt känslig data och ska
+# ALDRIG committas till Git - varken till ett privat eller publikt repo.
+#
+# Hela mappen gitignoras här, istället för att förlita sig på filnamns-
+# mönster, så att INGET som läggs i mappen någonsin laddas upp av misstag,
+# oavsett vad filerna heter.
 # -----------------------------------------------------------------------
-Master_Price_List*.csv
-*prislista*.csv
-*price_list*.csv
-*Prislista*.csv
-
-# -----------------------------------------------------------------------
-# Genererade rapporter från check_artikelnummer.py.
-# Innehåller interna produktnamn/artikelnummer - inget som behöver ligga
-# i versionshistoriken. Ta bort raden nedan om ni faktiskt VILL versionera
-# rapporterna (t.ex. för spårbarhet över tid).
-# -----------------------------------------------------------------------
-artikelnummer_rapport_*.txt
+private-data/
 
 # -----------------------------------------------------------------------
 # Python-brus
