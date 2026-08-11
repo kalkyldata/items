@@ -1,3 +1,23 @@
-private-data/artikelnummer_rapport.txt
-private-data/Master_Price_List_Sv_Enr_Step_4.csv
-/private-data
+# -----------------------------------------------------------------------
+# private-data/ innehåller masterprislistan (grossistens inköpspriser och
+# rabattkoder) och genererade rapporter (kan innehålla interna
+# produktnamn/artikelnummer). Detta är kommersiellt känslig data och ska
+# ALDRIG committas till Git - varken till ett privat eller publikt repo.
+#
+# Hela mappen gitignoras här, istället för att förlita sig på filnamns-
+# mönster, så att INGET som läggs i mappen någonsin laddas upp av misstag,
+# oavsett vad filerna heter.
+# -----------------------------------------------------------------------
+private-data/
+
+# -----------------------------------------------------------------------
+# Python-brus
+# -----------------------------------------------------------------------
+__pycache__/
+*.pyc
+
+# -----------------------------------------------------------------------
+# OS-brus
+# -----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
