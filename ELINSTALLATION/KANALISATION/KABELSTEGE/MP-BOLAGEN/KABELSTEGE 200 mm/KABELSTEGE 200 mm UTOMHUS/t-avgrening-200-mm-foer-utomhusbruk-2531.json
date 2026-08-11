@@ -1,0 +1,47 @@
+{
+  "itm_name": "T-AVGRENING 200 mm FÖR UTOMHUSBRUK",
+  "itm_description": "T-AVGRENING 200 mm FÖR UTOMHUSBRUK INKLUSIVE SKARVAR.",
+  "itm_image": "",
+  "itm_keywords": [
+    "KABELSTEGE 200 mm",
+    "KABELSTEGE 200 mm UTOMHUS"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "SKARVJÄRN KABELSTEGE UTOMHUS",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 6.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1115362",
+      "tsk_material_name": "SKARVJÄRN MP-107 AZ",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 48.2,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "T-AVGRENING 200 mm UTOMHUS",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2012521102",
+      "tsk_work_description": "STEGE STAND AVVINKL F",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.19,
+      "tsk_material_number": "1115483",
+      "tsk_material_name": "T-AVGRENING MP-132 Z",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 1725.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

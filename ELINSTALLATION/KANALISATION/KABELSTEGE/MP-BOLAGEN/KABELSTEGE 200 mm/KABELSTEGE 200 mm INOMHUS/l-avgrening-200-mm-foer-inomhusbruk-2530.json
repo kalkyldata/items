@@ -1,0 +1,47 @@
+{
+  "itm_name": "L-AVGRENING 200 mm FÖR INOMHUSBRUK",
+  "itm_description": "",
+  "itm_image": "",
+  "itm_keywords": [
+    "KABELSTEGE 200 mm",
+    "KABELSTEGE 200 mm INOMHUS"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "SKARVJÄRN KABELSTEGE INOMHUS",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 4.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1115363",
+      "tsk_material_name": "SKARVJÄRN MP-107 S",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 39.2,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "L-AVGRENING 200 mm INOMHUS",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2012521102",
+      "tsk_work_description": "STEGE STAND AVVINKL F",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.19,
+      "tsk_material_number": "1115403",
+      "tsk_material_name": "L-AVGRENING MP-122 S",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 890.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

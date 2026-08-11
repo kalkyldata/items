@@ -1,0 +1,47 @@
+{
+  "itm_name": "LOCK 400 mm FÖR INOMHUSBRUK",
+  "itm_description": "LOCK 400 mm FÖR INOMHUSBRUK INKLUSIVE LÅSCLIPS.",
+  "itm_image": "",
+  "itm_keywords": [
+    "KABELSTEGE 400 mm",
+    "KABELSTEGE 400 mm INOMHUS"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "LÅSCLIPS",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1117150",
+      "tsk_material_name": "LOCKCLIPS MP-401 R",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 21.2,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "LOCK 400 mm INOMHUS",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "(2012526140)/2",
+      "tsk_work_description": "LOCK BREDD ",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.03,
+      "tsk_material_number": "1117200",
+      "tsk_material_name": "LOCK MP-460 S",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.5,
+      "tsk_material_user_price": 755.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

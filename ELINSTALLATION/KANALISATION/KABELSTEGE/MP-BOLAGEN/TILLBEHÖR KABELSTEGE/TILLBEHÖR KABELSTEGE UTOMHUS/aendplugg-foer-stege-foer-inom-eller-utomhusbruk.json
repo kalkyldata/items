@@ -1,0 +1,31 @@
+{
+  "itm_name": "ÄNDSKYDD FÖR STEGE FÖR INOM- ELLER UTOMHUSBRUK",
+  "itm_description": "ÄNDSKYDD FÖR STEGE I PLAST FÖR INOM- ELLER UTOMHUSBRUK",
+  "itm_image": "",
+  "itm_keywords": [
+    "TILLBEHÖR KABELSTEGE",
+    "TILLBEHÖR KABELSTEGE INOMHUS",
+    "ÄNDPLUGG FÖR STEGE FÖR INOM- ELLER UTOMHUSBRUK"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "ÄNDPLUGG FÖR KABELSTEGE",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2012526220",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 2.0,
+      "tsk_work_task_duration": 0.03,
+      "tsk_material_number": "1115292",
+      "tsk_material_name": "ÄNDSKYDD MP-169 P PLAST",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 54.5,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
