@@ -1,0 +1,29 @@
+{
+  "itm_name": "GULT KABELSKYDDSRÖR 110/95 I MARK",
+  "itm_description": "GULT KABELSKYDDSRÖR 110/95 FÖRLAGD I MARK, JORD ELLER ÖPPEN KANAL.",
+  "itm_image": "",
+  "itm_keywords": [
+    "KABELSKYDDSRÖR 110/95 mm"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "GULT KABELSKYDDSRÖR 110/95 I MARK",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "206602102",
+      "tsk_work_description": "KABELSKYDDSR",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.08,
+      "tsk_material_number": "0663177",
+      "tsk_material_name": "KABELRÖR SRN 110 50M GUL",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 84.5,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
