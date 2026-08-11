@@ -13,7 +13,7 @@ Master_Price_List*.csv
 # i versionshistoriken. Ta bort raden nedan om ni faktiskt VILL versionera
 # rapporterna (t.ex. för spårbarhet över tid).
 # -----------------------------------------------------------------------
-artikelnummer_rapport_*.txt
+artikelnummer_rapport*.txt
 
 # -----------------------------------------------------------------------
 # Python-brus
