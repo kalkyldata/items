@@ -8,7 +8,7 @@
   ],
   "itm_quantity": 1,
   "itm_comments": [],
-"itm_tasks": [
+  "itm_tasks": [
     {
       "tsk_name": "LÅSCLIPS",
       "tsk_work_type": "SV-ATL",
@@ -27,7 +27,7 @@
       "tsk_comments": []
     },
     {
-      "tsk_name": "LOCK 200 mm INOMHUS",
+      "tsk_name": "LOCK 200 mm UTOMHUS",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "(2012526140)/3",
       "tsk_work_description": "LOCK BREDD ",
@@ -36,7 +36,7 @@
       "tsk_total_quantity": 1.0,
       "tsk_work_task_duration": 0.02,
       "tsk_material_number": "1117178",
-      "tsk_material_name": "LOCK 3 m",
+      "tsk_material_name": "LOCK 2 m",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.33,
       "tsk_material_user_price": 555.0,
