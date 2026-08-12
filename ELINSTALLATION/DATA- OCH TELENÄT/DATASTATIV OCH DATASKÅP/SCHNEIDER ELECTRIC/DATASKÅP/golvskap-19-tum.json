@@ -1,6 +1,6 @@
 {
   "itm_name": "GOLVSKÅP 19 TUM",
-  "itm_description": "",
+  "itm_description": "OBESTYCKAT GOLVSKÅP 19 TUM OCH BREDD 600 mm,DJUP 1000 mm OCH 42 HÖJDENHETER. INKLUSIVE UPPSTÄLLNING OCH MONTAGE SAMT INKOPPLING AV POTENTIALUTJÄMING",
   "itm_image": "",
   "itm_keywords": [
     "DATASTATIV OCH DATASKÅP",
@@ -105,28 +105,11 @@
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 1.0,
       "tsk_work_task_duration": 0.6,
-      "tsk_material_number": "2580630",
-      "tsk_material_name": "GOLVSKÅP RAINBOW 60X60 GL",
+      "tsk_material_number": "2506510",
+      "tsk_material_name": "SERVERRACK EASY RACK",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 1.0,
       "tsk_material_user_price": 15750.0,
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": []
-    },
-    {
-      "tsk_name": "KABELBORSTGENOMFÖRING TAK",
-      "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "",
-      "tsk_work_description": "",
-      "tsk_construction_stage": "3",
-      "tsk_quantity_unit": "st",
-      "tsk_total_quantity": 2.0,
-      "tsk_work_task_duration": 0.0,
-      "tsk_material_number": "2580653",
-      "tsk_material_name": "TAKPL RAINBOW KABELGMFÖ",
-      "tsk_material_type": "SV-ENR",
-      "tsk_material_amount": 1.0,
-      "tsk_material_user_price": 550.0,
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
