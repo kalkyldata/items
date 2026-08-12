@@ -7,7 +7,7 @@
   ],
   "itm_quantity": 1,
   "itm_comments": [],
-  "itm_tasks": [
+ "itm_tasks": [
     {
       "tsk_name": "SKARVJÄRN KABELSTEGE UTOMHUS",
       "tsk_work_type": "SV-ATL",
@@ -15,15 +15,16 @@
       "tsk_work_description": "",
       "tsk_construction_stage": "1",
       "tsk_quantity_unit": "st",
-      "tsk_total_quantity": 2.0,
-      "tsk_work_task_duration": 0.0,
-      "tsk_material_number": "1115362",
-      "tsk_material_name": "SKARVJÄRN MP-107 AZ",
+      "tsk_total_quantity": 2,
+      "tsk_work_task_duration": 0,
+      "tsk_material_number": "1115361",
+      "tsk_material_name": "SKARVJÄRN Z4MP-107Z4",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.16,
-      "tsk_material_user_price": 48.2,
+      "tsk_material_user_price": 92.5,
       "tsk_resource_type": "Electrician",
-      "tsk_comments": []
+      "tsk_comments": [],
+      "tsk_material_url": ""
     },
     {
       "tsk_name": "VÄGGKONSOL 200 mm PÅ BETONG",
@@ -32,15 +33,16 @@
       "tsk_work_description": "VÄGGKONSOL BETONG",
       "tsk_construction_stage": "1",
       "tsk_quantity_unit": "st",
-      "tsk_total_quantity": 1.0,
+      "tsk_total_quantity": 1,
       "tsk_work_task_duration": 0.18,
       "tsk_material_number": "1115176",
-      "tsk_material_name": "VÄGGKONSOL MP-172 Z2",
+      "tsk_material_name": "VÄGGKONSOL MP-172 Z2 200MM VFZ",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.5,
-      "tsk_material_user_price": 178.0,
+      "tsk_material_user_price": 332,
       "tsk_resource_type": "Electrician",
-      "tsk_comments": []
+      "tsk_comments": [],
+      "tsk_material_url": ""
     },
     {
       "tsk_name": "UNIVERSALBRICKA UTOMHUS",
@@ -49,15 +51,16 @@
       "tsk_work_description": "LÅSA LEDNSTEGE M BULT P KONSOL",
       "tsk_construction_stage": "1",
       "tsk_quantity_unit": "st",
-      "tsk_total_quantity": 1.0,
+      "tsk_total_quantity": 1,
       "tsk_work_task_duration": 0.02,
-      "tsk_material_number": "1116533",
-      "tsk_material_name": "UNIVERSALBRICKA MP-731 Z",
+      "tsk_material_number": "1116534",
+      "tsk_material_name": "UNIVERSALBRICKA Z4",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.5,
-      "tsk_material_user_price": 15.0,
+      "tsk_material_user_price": 25.5,
       "tsk_resource_type": "Electrician",
-      "tsk_comments": []
+      "tsk_comments": [],
+      "tsk_material_url": ""
     },
     {
       "tsk_name": "MONTERINGSBULT UTOMHUS",
@@ -66,15 +69,16 @@
       "tsk_work_description": "",
       "tsk_construction_stage": "1",
       "tsk_quantity_unit": "st",
-      "tsk_total_quantity": 1.0,
-      "tsk_work_task_duration": 0.0,
+      "tsk_total_quantity": 1,
+      "tsk_work_task_duration": 0,
       "tsk_material_number": "1115680",
-      "tsk_material_name": "MONTERINGSSKRUV MP-937 Z",
+      "tsk_material_name": "MONTERINGSSKRUV M8x16 FZV(50ST/FRP) 937X",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.01,
-      "tsk_material_user_price": 471.0,
+      "tsk_material_user_price": 788,
       "tsk_resource_type": "Electrician",
-      "tsk_comments": []
+      "tsk_comments": [],
+      "tsk_material_url": ""
     },
     {
       "tsk_name": "BETONGSKRUV",
@@ -83,15 +87,16 @@
       "tsk_work_description": "",
       "tsk_construction_stage": "1",
       "tsk_quantity_unit": "st",
-      "tsk_total_quantity": 1.0,
-      "tsk_work_task_duration": 0.0,
+      "tsk_total_quantity": 1,
+      "tsk_work_task_duration": 0,
       "tsk_material_number": "1556621",
-      "tsk_material_name": "BETONGSKRUV 100 ST MP-890Z",
+      "tsk_material_name": "BETONGSKRUV 7,5X50 FZV",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.01,
-      "tsk_material_user_price": 2220.0,
+      "tsk_material_user_price": 38.4,
       "tsk_resource_type": "Electrician",
-      "tsk_comments": []
+      "tsk_comments": [],
+      "tsk_material_url": ""
     },
     {
       "tsk_name": "KABELSTEGE 200 mm UTOMHUS",
@@ -100,15 +105,15 @@
       "tsk_work_description": "STEGE STAND UPPLÄGGA 300 MM",
       "tsk_construction_stage": "1",
       "tsk_quantity_unit": "st",
-      "tsk_total_quantity": 1.0,
+      "tsk_total_quantity": 1,
       "tsk_work_task_duration": 0.07,
-      "tsk_material_number": "1115062",
-      "tsk_material_name": "KABELSTEGE MP-152 AZ",
+      "tsk_material_number": "1115102",
+      "tsk_material_name": "KABELSTEGE MP-Z4 200MM 6 M Z4",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.17,
-      "tsk_material_user_price": 1850.0,
+      "tsk_material_user_price": 3890,
       "tsk_resource_type": "Electrician",
-      "tsk_comments": []
+      "tsk_comments": [],
+      "tsk_material_url": ""
     }
-  ]
 }
