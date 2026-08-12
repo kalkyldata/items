@@ -98,10 +98,7 @@
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.02,
       "tsk_material_user_price": 788,
-      "tsk_material_supplier": "Ahlsell – 788.00 SEK",
-      "tsk_resource_type": "",
-      "tsk_comments": [],
-      "tsk_material_url": ""
+      "tsk_resource_type": "Electrician"
     },
     {
       "tsk_name": "UNIVERSALBRICKA UTOMHUS",
@@ -117,10 +114,8 @@
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.5,
       "tsk_material_user_price": 25.5,
-      "tsk_material_supplier": "Ahlsell – 25.50 SEK",
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": [],
-      "tsk_material_url": ""
+      "tsk_resource_type": "Electrician"
+
     },
     {
       "tsk_name": "KAPA PENDEL",
@@ -136,10 +131,7 @@
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0,
       "tsk_material_user_price": 0,
-      "tsk_material_supplier": "",
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": [],
-      "tsk_material_url": ""
+      "tsk_resource_type": "Electrician"
     },
     {
       "tsk_name": "KABELSTEGE 200 mm UTOMHUS",
