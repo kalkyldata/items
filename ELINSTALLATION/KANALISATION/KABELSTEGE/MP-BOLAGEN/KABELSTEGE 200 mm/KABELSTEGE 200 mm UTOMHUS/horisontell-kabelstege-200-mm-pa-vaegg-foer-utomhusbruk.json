@@ -22,9 +22,7 @@
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.16,
       "tsk_material_user_price": 92.5,
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": [],
-      "tsk_material_url": ""
+      "tsk_resource_type": "Electrician"
     },
     {
       "tsk_name": "VÄGGKONSOL 200 mm PÅ BETONG",
@@ -40,9 +38,7 @@
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.5,
       "tsk_material_user_price": 332,
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": [],
-      "tsk_material_url": ""
+      "tsk_resource_type": "Electrician"
     },
     {
       "tsk_name": "UNIVERSALBRICKA UTOMHUS",
@@ -58,9 +54,7 @@
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.5,
       "tsk_material_user_price": 25.5,
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": [],
-      "tsk_material_url": ""
+      "tsk_resource_type": "Electrician"
     },
     {
       "tsk_name": "MONTERINGSBULT UTOMHUS",
@@ -76,9 +70,7 @@
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.01,
       "tsk_material_user_price": 788,
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": [],
-      "tsk_material_url": ""
+      "tsk_resource_type": "Electrician"
     },
     {
       "tsk_name": "BETONGSKRUV",
@@ -94,9 +86,7 @@
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.01,
       "tsk_material_user_price": 38.4,
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": [],
-      "tsk_material_url": ""
+      "tsk_resource_type": "Electrician"
     },
     {
       "tsk_name": "KABELSTEGE 200 mm UTOMHUS",
@@ -112,8 +102,6 @@
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.17,
       "tsk_material_user_price": 3890,
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": [],
-      "tsk_material_url": ""
+      "tsk_resource_type": "Electrician"
     }
 }
