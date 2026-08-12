@@ -155,7 +155,7 @@
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.17,
       "tsk_material_user_price": 3890,
-      "tsk_resource_type": "Electrician",
+      "tsk_resource_type": "Electrician"
     }
   ]
 }
