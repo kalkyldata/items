@@ -198,6 +198,10 @@ faktiska kodbetydelsen:
     U = Utgående prisrad (fasas ut, men gäller
         fortfarande just nu)                      -> UTGÅENDE
     N = Gammal prisrad som inte längre gäller    -> UTGÅNGEN
+    E = Egen/lokal rad - skapad internt (t.ex. en
+        egen variant av en officiell kod, som
+        "(2012526140)/3" för att bara använda 1/3
+        av normaltiden)                           -> EGEN (lokal rad)
     (tomt värde)                                 -> okänt (flaggas separat)
     Allt annat                                   -> okänt värde (flaggas
                                                      separat, visar det
@@ -205,7 +209,8 @@ faktiska kodbetydelsen:
 
 Rapporten särskiljer "UTGÅENDE" (U - på väg ut, men fortfarande giltig
 just nu) från "UTGÅNGEN" (N - redan ogiltig), eftersom de kräver olika
-grad av brådska att åtgärda.
+grad av brådska att åtgärda. "EGEN" (E) räknas varken som utgående eller
+utgången - det är avsiktligt skapade varianter, inte fel.
 
 Tolkningen styrs av en enda funktion i koden (interpret_valid_flag) om
 den någon gång behöver justeras.
@@ -377,6 +382,10 @@ def interpret_valid_flag(raw):
         U = Utgående prisrad (fasas ut, men gäller
             fortfarande just nu)                   -> UTGÅENDE
         N = Gammal prisrad som inte längre gäller  -> UTGÅNGEN
+        E = Egen/lokal rad - skapad internt (t.ex.
+            en variant av en officiell kod som bara
+            använder en bråkdel av normaltiden,
+            t.ex. "(2012526140)/3")                -> EGEN (lokal rad)
 
     Extra ordformer (JA/NEJ/Y/N osv) hanteras också ifall fältet någon
     gång matas in på annat sätt än enbokstavskoden.
@@ -391,11 +400,14 @@ def interpret_valid_flag(raw):
         return "UTGÅENDE"
     if val == "N":
         return "UTGÅNGEN"
+    if val == "E":
+        return "EGEN (lokal rad)"
 
     # Extra ordformer, för säkerhets skull
     active_words = {"JA", "Y", "YES", "1", "TRUE", "AKTIV", "GÄLLANDE"}
     expiring_words = {"UTGÅENDE", "UTGAENDE", "FASAS UT"}
     expired_words = {"NEJ", "NO", "0", "FALSE", "UTGÅNGEN", "UTGANGEN", "INAKTIV"}
+    own_words = {"EGEN", "LOKAL", "LOKAL RAD"}
 
     if val in active_words:
         return "AKTIV"
@@ -403,6 +415,8 @@ def interpret_valid_flag(raw):
         return "UTGÅENDE"
     if val in expired_words:
         return "UTGÅNGEN"
+    if val in own_words:
+        return "EGEN (lokal rad)"
     if val == "":
         return "OKÄNT (tomt värde)"
     return f"OKÄNT VÄRDE ({raw!r})"
@@ -410,8 +424,9 @@ def interpret_valid_flag(raw):
 
 def status_bucket(status):
     """
-    Grupperar ett status-resultat (från interpret_valid_flag) i en av de
-    fyra rapportkategorierna: 'aktiv', 'utgaende', 'utgangen' eller 'okant'.
+    Grupperar ett status-resultat (från interpret_valid_flag) i en av
+    rapportkategorierna: 'aktiv', 'utgaende', 'utgangen', 'egen' eller
+    'okant'.
     """
     if status.startswith("AKTIV"):
         return "aktiv"
@@ -419,6 +434,8 @@ def status_bucket(status):
         return "utgaende"
     if status == "UTGÅNGEN":
         return "utgangen"
+    if status.startswith("EGEN"):
+        return "egen"
     return "okant"
 
 
@@ -772,7 +789,8 @@ def write_report(
                 "     J = Gällande                          -> AKTIV\n"
                 "     T = Ny tillkommande prisrad            -> AKTIV (ny prisrad)\n"
                 "     U = Utgående prisrad (fasas ut)        -> UTGÅENDE\n"
-                "     N = Gammal prisrad som ej längre gäller -> UTGÅNGEN\n\n"
+                "     N = Gammal prisrad som ej längre gäller -> UTGÅNGEN\n"
+                "     E = Egen/lokal rad (skapad internt)     -> EGEN\n\n"
             )
 
             found_codes = used_work_codes & set(work_records.keys())
@@ -784,6 +802,7 @@ def write_report(
             active_codes = sorted(buckets["aktiv"])
             expiring_codes = sorted(buckets["utgaende"])
             expired_codes = sorted(buckets["utgangen"])
+            own_codes = sorted(buckets["egen"])
             unknown_codes = sorted(buckets["okant"])
 
             out.write("SAMMANFATTNING - ARBETSKODER\n")
@@ -794,6 +813,7 @@ def write_report(
             out.write(f"  - Aktiva (J/T):                          {len(active_codes)}\n")
             out.write(f"  - Utgående (U, fasas ut):                {len(expiring_codes)}\n")
             out.write(f"  - Utgångna (N):                          {len(expired_codes)}\n")
+            out.write(f"  - Egna/lokala rader (E):                 {len(own_codes)}\n")
             out.write(f"  - Okänt värde i giltighetsfältet:        {len(unknown_codes)}\n")
             out.write(f"  - EJ REGISTRERADE (finns ej i listan):   {len(missing_codes)}\n\n")
 
@@ -834,6 +854,22 @@ def write_report(
                 out.write("Inga utgående (snart utfasade) arbetskoder används.\n\n")
             else:
                 for code in expiring_codes:
+                    rec = work_records[code]
+                    out.write(
+                        f"\nArbetskod: {code}  "
+                        f"(id {rec['id'] or '(saknas)'}, giltighetsfält='{rec['valid_raw']}')\n"
+                    )
+                    out.write(f"  Beskrivning i arbetskodslistan: {rec['description'] or '(saknas)'}\n")
+                    for path, desc, tsk_name in work_usage_map[code]:
+                        out.write(f"  - Fil: {path}\n    Task: {tsk_name or '(saknas)'}\n")
+                out.write("\n")
+
+            out.write("EGNA/LOKALA ARBETSKODER (E) - DETALJER\n")
+            out.write("-" * 60 + "\n")
+            if not own_codes:
+                out.write("Inga egna/lokala arbetskoder används.\n\n")
+            else:
+                for code in own_codes:
                     rec = work_records[code]
                     out.write(
                         f"\nArbetskod: {code}  "
@@ -1036,6 +1072,7 @@ def main():
             f"  Arbetskoder: {bucket_counts['aktiv']} aktiva, "
             f"{bucket_counts['utgaende']} utgående (fasas ut), "
             f"{bucket_counts['utgangen']} utgångna, "
+            f"{bucket_counts['egen']} egna/lokala (E), "
             f"{bucket_counts['okant']} okänt värde, "
             f"{missing_work_count} ej registrerade (av {len(used_work_codes)} unika)"
         )
