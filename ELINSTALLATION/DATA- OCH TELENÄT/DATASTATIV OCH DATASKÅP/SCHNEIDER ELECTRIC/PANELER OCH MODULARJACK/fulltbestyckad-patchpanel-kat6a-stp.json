@@ -1,5 +1,5 @@
 {
-  "itm_name": "FULLT BESTYCKAD PATCHPANEL KAT6A UTP",
+  "itm_name": "FULLT BESTYCKAD PATCHPANEL KAT6A STP",
   "itm_description": "UTDRAGNINGSBAR PATCHPANEL. 1 HÖJDENHET. BESTYCKAD MED 24 STYCKEN KAT6A STP MODULARJACK. FÖR 19 TUMS DATATSTATIV ELLER DATASKÅP. INKLUSIVE TRÅDLEDARBYGEL, KABELINKOPPLING, MÄRKNING, FÄSTMATERIAL, PROVNING OCH POT.UTJÄMNING.",
   "itm_image": "",
   "itm_keywords": [
@@ -88,12 +88,12 @@
     {
       "tsk_name": "KONTROLLMÄTNING OCH DOKUMENTATION",
       "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "2020759100 Mätning 1/2 länk",
-      "tsk_work_description": "MODULAR UTTAG",
+      "tsk_work_code": "2020759-KTRLMATN-50",
+      "tsk_work_description": "Kontrollmätning med datainstrument inkl. dokumentation t o m kat 6. Endast ena änden.",
       "tsk_construction_stage": "3",
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 24.0,
-      "tsk_work_task_duration": 0.06,
+      "tsk_work_task_duration": 0.055,
       "tsk_material_number": "",
       "tsk_material_name": "",
       "tsk_material_type": "SV-ENR",
@@ -102,15 +102,15 @@
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
-    {
-      "tsk_name": "RJ45 MODULARJACK KAT6A",
+{
+      "tsk_name": "RJ45 MODULARJACK KAT6A STP",
       "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "2020759100 RJ45",
-      "tsk_work_description": "MODULAR UTTAG",
+      "tsk_work_code": "2020759-STP",
+      "tsk_work_description": "Ijackning och kontaktering av RJ45 STP med snabbkontakteringsklämma",
       "tsk_construction_stage": "3",
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 24.0,
-      "tsk_work_task_duration": 0.15,
+      "tsk_work_task_duration": 0.2,
       "tsk_material_number": "5146387",
       "tsk_material_name": "MODULARJACK RJ45 KAT6A STP",
       "tsk_material_type": "SV-ENR",
