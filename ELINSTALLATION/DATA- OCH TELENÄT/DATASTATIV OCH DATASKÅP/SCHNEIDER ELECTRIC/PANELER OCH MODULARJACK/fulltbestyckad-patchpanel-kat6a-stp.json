@@ -1,6 +1,6 @@
 {
-  "itm_name": "FULLT BESTYCKAD PATCHPANEL",
-  "itm_description": "UTDRAGNINGSBAR PATCHPANEL. 1 HÖJDENHET. BESTYCKAD MED 24 STYCKEN KAT6A MODULARJACK. FÖR 19 TUMS DATATSTATIV ELLER DATASKÅP. INKLUSIVE TRÅDLEDARBYGEL, KABELINKOPPLING, MÄRKNING, FÄSTMATERIAL, PROVNING OCH POT.UTJÄMNING.",
+  "itm_name": "FULLT BESTYCKAD PATCHPANEL KAT6A UTP",
+  "itm_description": "UTDRAGNINGSBAR PATCHPANEL. 1 HÖJDENHET. BESTYCKAD MED 24 STYCKEN KAT6A STP MODULARJACK. FÖR 19 TUMS DATATSTATIV ELLER DATASKÅP. INKLUSIVE TRÅDLEDARBYGEL, KABELINKOPPLING, MÄRKNING, FÄSTMATERIAL, PROVNING OCH POT.UTJÄMNING.",
   "itm_image": "",
   "itm_keywords": [
     "DATASTATIV OCH DATASKÅP",
@@ -8,7 +8,14 @@
     "FULLTBESTYCKAD PATCHPANEL"
   ],
   "itm_quantity": 1,
-  "itm_comments": [],
+  "itm_comments": [
+  {
+    "text": "Arbetskod 2020759-STP: Ijackning och kontaktering av RJ45 STP. Summerad tid enl. ackordstidslistan 2020759 moment 1+2+4+8 (skärmad): 0,03+0,02+0,05+0,06 = 0,16 tim."
+  },
+  {
+    "text": "Arbetskod 2020759-KTRLMATN-50: Kontrollmätning enl. ackordstidslistan 2020759 moment 12, halv tid eftersom mätning görs separat i länkens båda ändar: 0,11 / 2 = 0,055 tim."
+  }
+],
   "itm_tasks": [
     {
       "tsk_name": "PATCHPANEL 19 TUM",
@@ -103,9 +110,9 @@
       "tsk_construction_stage": "3",
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 24.0,
-      "tsk_work_task_duration": 0.13,
-      "tsk_material_number": "5146382",
-      "tsk_material_name": "MODULARJACK RJ45 KAT6A UTP",
+      "tsk_work_task_duration": 0.15,
+      "tsk_material_number": "5146387",
+      "tsk_material_name": "MODULARJACK RJ45 KAT6A STP",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 1.0,
       "tsk_material_user_price": 167.0,

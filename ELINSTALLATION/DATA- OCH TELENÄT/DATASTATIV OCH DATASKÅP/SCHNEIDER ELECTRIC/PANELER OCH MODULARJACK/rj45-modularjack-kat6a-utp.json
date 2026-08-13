@@ -1,0 +1,78 @@
+{
+  "itm_name": "RJ45 MODULARJACK KAT6A UTP",
+  "itm_description": "RJ45 8(8) MODULARJACK KAT6A UTP FÖR OBESTYCKAD PATCHPANEL. VERKTYGSLÖST MONTAGE INKLUSIVE KABELINKOPPLING, FÄSTMATERIAL OCH PROVNING.",
+  "itm_image": "",
+  "itm_keywords": [
+    "RJ45 MODULARJACK KAT6A",
+    "RJ45 UTTAG KAT6A",
+    "MODULARUTTAG KAT6A",
+    "MODULARJACK KAT6A",
+    "PATCHPANEL MODULARJACK",
+    "DATAUTTAG KAT6A",
+    "DATAUTTAG RJ45",
+    "DATASTATIV OCH DATASKÅP",
+    "PANELER OCH MODULARJACK"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [
+  {
+    "text": "Arbetskod 2020759-UTP: Ijackning och kontaktering av RJ45 UTP med snabbkontakteringsklämma. Summerad tid enl. ackordstidslistan 2020759 moment 1+2+7 (oskärmad): 0,03+0,02+0,06 = 0,11 tim."
+  },
+  {
+    "text": "Arbetskod 2020759-KTRLMATN-50: Kontrollmätning enl. ackordstidslistan 2020759 moment 12, halv tid eftersom mätning görs separat i länkens båda ändar: 0,11 / 2 = 0,055 tim."
+  }
+],
+  "itm_tasks": [
+    {
+      "tsk_name": "RJ45 MODULARJACK KAT6A UTP",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "Ijackning och kontaktering av RJ45 STP med snabbkontakteringsklämma",
+      "tsk_work_description": "MODULAR UTTAG",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.2,
+      "tsk_material_number": "5146382",
+      "tsk_material_name": "MODULARJACK RJ45 KAT6A UTP",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 167.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "KONTROLLMÄTNING OCH DOKUMENTATION",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2020759-KTRLMATN-50",
+      "tsk_work_description": "Kontrollmätning med datainstrument inkl. dokumentation t o m kat 6. Endast ena änden.",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.06,
+      "tsk_material_number": "",
+      "tsk_material_name": "",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.0,
+      "tsk_material_user_price": 0.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "BUNTBAND 100 mm",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1516053",
+      "tsk_material_name": "BUNTBAND 100X2,5 BK 100P",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 44.5,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
