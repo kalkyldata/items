@@ -39,23 +39,6 @@
       "tsk_comments": []
     },
     {
-      "tsk_name": "TILLÄGG FÖRLÄGGNING AV HALOGENFRITT RÖR",
-      "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "206513120",
-      "tsk_work_description": "TILLÄGG HALOGENFRIA RÖR",
-      "tsk_construction_stage": "1",
-      "tsk_quantity_unit": "m",
-      "tsk_total_quantity": 1.0,
-      "tsk_work_task_duration": 0.01,
-      "tsk_material_number": "",
-      "tsk_material_name": "",
-      "tsk_material_type": "SV-ENR",
-      "tsk_material_amount": 0.0,
-      "tsk_material_user_price": 0.0,
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": []
-    },
-    {
       "tsk_name": "HALOGENFRITT VP-RÖR 16 mm INBILAT MED MASKIN I TRÄ ELLER TEGEL",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "206504120",
