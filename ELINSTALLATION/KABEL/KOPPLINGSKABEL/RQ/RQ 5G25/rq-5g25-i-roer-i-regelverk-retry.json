@@ -1,6 +1,6 @@
 {
-  "itm_name": "RQ 4G35 I RÖR I REGELVERK",
-  "itm_description": "RQ 4G35 i infällt rör i vägg med regelverk av stålreglar inklusive VP-rör och klammer",
+  "itm_name": "RQ 5G25 I RÖR I REGELVERK",
+  "itm_description": "RQ 5G25 i infällt rör i vägg med regelverk av stålreglar inklusive VP-rör och klammer",
   "itm_image": "images/images_articles/rq.jpg",
   "itm_keywords": [
     "KABEL",
@@ -97,7 +97,7 @@
       "tsk_comments": []
     },
     {
-      "tsk_name": "RQ 35 GRÖNGUL I RÖR",
+      "tsk_name": "RQ 25 BLÅ I RÖR",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "207501113",
       "tsk_work_description": "FK RK MK 25-35KVMM M",
@@ -105,16 +105,33 @@
       "tsk_quantity_unit": "m",
       "tsk_total_quantity": 1.0,
       "tsk_work_task_duration": 0.02,
-      "tsk_material_number": "0370190",
-      "tsk_material_name": "RQ-PURE 35 GRÖNGUL",
+      "tsk_material_number": "0370070",
+      "tsk_material_name": "RQ-PURE 25 BLÅ",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 1.0,
-      "tsk_material_user_price": 110.0,
+      "tsk_material_user_price": 81.0,
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
     {
-      "tsk_name": "RQ 35 SVART I RÖR",
+      "tsk_name": "RQ 25 GRÖNGUL I RÖR",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207501113",
+      "tsk_work_description": "FK RK MK 25-35KVMM M",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "0370090",
+      "tsk_material_name": "RQ-PURE 25 G/G",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 81.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "RQ 25 SVART I RÖR",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "207501113",
       "tsk_work_description": "FK RK MK 25-35KVMM M",
@@ -122,13 +139,13 @@
       "tsk_quantity_unit": "m",
       "tsk_total_quantity": 3.0,
       "tsk_work_task_duration": 0.02,
-      "tsk_material_number": "0370120",
-      "tsk_material_name": "RQ-PURE 35 SVART",
+      "tsk_material_number": "0370027",
+      "tsk_material_name": "RQ-PURE 25 SVART T1500",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 1.0,
-      "tsk_material_user_price": 110.0,
+      "tsk_material_user_price": 77.0,
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
-    },
+    }
   ]
 }
