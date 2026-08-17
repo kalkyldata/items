@@ -1,0 +1,81 @@
+{
+  "itm_name": "OBESTYCKAD PATCHPANEL",
+  "itm_description": "UTDRAGNINGSBAR PATCHPANEL 1 HÖJDENHET OBESTYCKAD MED 24 STYCKEN PLATSER FÖR MODULARJACK FÖR DATATSTATIV ELLER DATASKÅP 19 TUMS MONTERING INKLUSIVE DAMMLUCKOR, MÄRKNING, FÄSTMATERIAL OCH POT.UTJÄMNING.",
+  "itm_image": "",
+  "itm_keywords": [
+    "DATASTATIV OCH DATASKÅP",
+    "PANELER OCH MODULARJACK"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "PATCHPANEL 19 TUM",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2020757100",
+      "tsk_work_description": "MONT MODULARPANEL",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.15,
+      "tsk_material_number": "5126862",
+      "tsk_material_name": "PATCH-P 24X S-ONE 1H S ONE",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 715.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "FIXERING AV KABELBUNT I STATIV",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2020757110",
+      "tsk_work_description": "FIXERIG AV KABEL I STATIV",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.04,
+      "tsk_material_number": "1516084",
+      "tsk_material_name": "BUNTBAND T120I 100 ST",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 328.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "JORDNING PATCHPANEL",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2010500110",
+      "tsk_work_description": "INKOPPL F",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.01,
+      "tsk_material_number": "5126869",
+      "tsk_material_name": "JORDNINGSKIT PATCHP",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.1,
+      "tsk_material_user_price": 180.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "MÄRKNING PATCHPANEL",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2020778200",
+      "tsk_work_description": "TILLVERKA ELEKTRONISK M",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.05,
+      "tsk_material_number": "2972115",
+      "tsk_material_name": "ID1 TAPE12 MM POLY SV/VIT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 453.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

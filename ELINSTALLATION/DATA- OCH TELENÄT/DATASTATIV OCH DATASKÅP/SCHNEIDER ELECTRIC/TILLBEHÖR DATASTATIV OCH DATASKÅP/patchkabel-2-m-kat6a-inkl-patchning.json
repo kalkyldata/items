@@ -1,0 +1,31 @@
+{
+  "itm_name": "PATCHKABEL 2 m KAT6A INKL PATCHNING",
+  "itm_description": "PATCHKABEL RJ45-RJ45 2 m KAT6A INKLUSIVE PATCHNING I PANEL .",
+  "itm_image": "",
+  "itm_keywords": [
+    "DATASTATIV OCH DATASKÅP",
+    "TILLBEHÖR DATASTATIV OCH DATASKÅP",
+    "PATCHKABEL 1 m KAT6A INKL PATCHNING"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "PATCHKABEL 2 m ",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2020757120",
+      "tsk_work_description": "MONT AV PATCHKABEL",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.07,
+      "tsk_material_number": "5152203",
+      "tsk_material_name": "PATCHKABEL KAT 6A S/FTP 4P 2M",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 193.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

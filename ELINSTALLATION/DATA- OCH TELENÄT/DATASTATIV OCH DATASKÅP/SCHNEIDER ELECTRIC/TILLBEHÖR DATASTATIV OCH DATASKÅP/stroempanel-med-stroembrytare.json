@@ -1,0 +1,81 @@
+{
+  "itm_name": "STRÖMPANEL MED STRÖMBRYTARE",
+  "itm_description": "STRÖMPANEL MED STICKPROPP. 1 HÖJDENHET FÖR 19 TUMS DATATSTATIV ELLER DATASKÅP. MED 8 UTTAG OCH STRÖMBRYTARE INKLUSIVE MÄRKNING OCH FÄSTMATERIAL.",
+  "itm_image": "",
+  "itm_keywords": [
+    "DATASTATIV OCH DATASKÅP",
+    "TILLBEHÖR DATASTATIV OCH DATASKÅP"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "KABELMÄRKNING",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2010526210",
+      "tsk_work_description": "MÄRKA KABEL MED KABELSKYLT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.01,
+      "tsk_material_number": "2989410",
+      "tsk_material_name": "CAB12-38 SKYLTHÅLL.MBUNTB",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.02,
+      "tsk_material_user_price": 381.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "MÄRKTEJP",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "2972115",
+      "tsk_material_name": "ID1 TAPE12 MM POLY SV/VIT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 453.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "MÄRKNING STRÖMPANEL",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2020778200",
+      "tsk_work_description": "TILLVERKA ELEKTRONISK M",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.05,
+      "tsk_material_number": "2972115",
+      "tsk_material_name": "ID1 TAPE12 MM POLY SV/VIT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 453.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "STRÖMPANEL MED STRÖMBRYTARE",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2020757100",
+      "tsk_work_description": "MONT MODULARPANEL",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.15,
+      "tsk_material_number": "2598787",
+      "tsk_material_name": "LEXC STRÖMPANEL 8X230V",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 1000.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
