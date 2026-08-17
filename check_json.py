@@ -4,6 +4,9 @@ check_artikelnummer.py
 =======================================================================
 VAD GÖR DETTA SCRIPT?
 -----------------------------------------------------------------------
+Detta är ett internt verktyg.
+Det är, i första hand, publicerat på Github för versionshantering.
+
 Kontrollerar era "item-filer" (JSON) mot två listor:
 
   1. ARTIKELNUMMER (material): kontrollerar att alla artikelnummer som
@@ -45,7 +48,7 @@ SÅ HÄR ANVÄNDER DU DET (enklaste sättet)
    scriptet:
 
        repo-rot/
-       ├── check_artikelnummer.py
+       ├── check_json.py
        ├── .gitignore
        ├── private-data/
        │   ├── Master_Price_List_Sv_Enr_Step_4.csv   <- masterprislista
@@ -64,7 +67,7 @@ SÅ HÄR ANVÄNDER DU DET (enklaste sättet)
 
 3. Öppna en terminal i repo-roten och kör:
 
-       python check_artikelnummer.py
+       python check_json.py
 
    Det är allt - inga argument behövs. Scriptet:
      - hittar automatiskt sin egen mapp och söker item-filer där
