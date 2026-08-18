@@ -1,0 +1,31 @@
+{
+  "itm_name": "ÄNDSTYCKE ALUMINIUM 34x101 mm",
+  "itm_description": "",
+  "itm_image": "",
+  "itm_keywords": [
+    "TILLBEHÖR MATARKANAL",
+    "KABELKANAL TILLBEHÖR MATARKANAL",
+    "KABELKANAL ÄNDSTYCKE ALUMINIUM 34x101 mm"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "ÄNDSTYCKE ALUMINIUM 34x101 mm",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2013514140",
+      "tsk_work_description": "MONT AV TAK/V",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.05,
+      "tsk_material_number": "1160175",
+      "tsk_material_name": "ÄNDSTYCKE FED-ES10134 VIT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 328.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "itm_name": "INNERHÖRN ALUMINIUM 3-FACK 34x101 mm PÅ VÄGG",
+  "itm_description": "",
+  "itm_image": "",
+  "itm_keywords": [
+    "TILLBEHÖR MATARKANAL",
+    "KABELKANAL TILLBEHÖR MATARKANAL",
+    "KABELKANAL INNERHÖRN ALUMINIUM 3-FACK 34x101 mm PÅ VÄGG"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "INNERHÖRN ALUMINIUM 3-FACK 34x101 mm PÅ VÄGG",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2013514170",
+      "tsk_work_description": "AVVINKLA KANAL F",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.18,
+      "tsk_material_number": "1160135",
+      "tsk_material_name": "INNERHÖRN FED-IH10134 ALV",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 1180.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "MONTERINGSSKRUV 5,0X45",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 4.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1534904",
+      "tsk_material_name": "MONT SKRUV TMP-C3 5,0X45",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 368.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

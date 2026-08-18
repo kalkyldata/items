@@ -1,0 +1,81 @@
+{
+  "itm_name": "MATARKANAL ALUMINIUM 3-FACK 34x101 mm PÅ VÄGG",
+  "itm_description": "VIT MATARKANAL ALUMINIUM 3-FACK B34xH101 mm PÅ BETONG-, ELEMENTBETONG-, TEGEL-, LÄTTBETONG- ELLER TRÄVÄGG INKLUSIVE LOCK, SKARVSTYCKE SAMT FÄSTMATERIAL.",
+  "itm_image": "",
+  "itm_keywords": [
+    "KABELKANAL MATARKANAL",
+    "KABELKANAL MATARKANAL ALUMINIUM 3-FACK 34x101 mm PÅ VÄGG"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "MATARKANAL ALUMINIUM 3-FACK 34x101 mm PÅ VÄGG",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2013508111",
+      "tsk_work_description": "MATARKANAL METALL/TR",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.28,
+      "tsk_material_number": "1160125",
+      "tsk_material_name": "KANAL FED10134 ALVIT 2,5M",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.4,
+      "tsk_material_user_price": 1780.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "SKARVSTYCKE ALUMINIUM",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1160160",
+      "tsk_material_name": "SKARVSTYCKE FED-SSJ",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.4,
+      "tsk_material_user_price": 33.8,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "BUNTBANDSFÄSTE",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2013514230",
+      "tsk_work_description": "BUNTBANDSF",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.03,
+      "tsk_material_number": "1160166",
+      "tsk_material_name": "BUNTBANDSFÄSTE FA",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 28.4,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "MONTERINGSSKRUV 5,0X45",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 2.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1534904",
+      "tsk_material_name": "MONT SKRUV TMP-C3 5,0X45",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 368.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
