@@ -14,7 +14,7 @@
     "FÖRZINKAD",
     "ROSTSKYDDAD",
     "KABELSTEGE 400 mm",
-    "KABELSTEGE 400 mm INOMHUS"
+    "KABELSTEGE 400 mm UTOMHUS"
   ],
   "itm_quantity": 1,
   "itm_comments": [],
@@ -37,18 +37,18 @@
       "tsk_comments": []
     },
     {
-      "tsk_name": "LOCK 200 mm UTOMHUS",
+      "tsk_name": "LOCK 400 mm UTOMHUS",
       "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "(2012526140)/3",
+      "tsk_work_code": "2012526140",
       "tsk_work_description": "LOCK BREDD ",
       "tsk_construction_stage": "1",
       "tsk_quantity_unit": "st",
-      "tsk_total_quantity": 1.0,
-      "tsk_work_task_duration": 0.02,
+      "tsk_total_quantity": 0.5,
+      "tsk_work_task_duration": 0.06,
       "tsk_material_number": "1117216",
       "tsk_material_name": "LOCK 2 m",
       "tsk_material_type": "SV-ENR",
-      "tsk_material_amount": 0.33,
+      "tsk_material_amount": 1,
       "tsk_material_user_price": 555.0,
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
