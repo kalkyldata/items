@@ -17,9 +17,6 @@
   "itm_comments": [
   {
     "text": "Arbetskod 2020759-STP: Ijackning och kontaktering av RJ45 STP. Summerad tid enl. ackordstidslistan 2020759 moment 1+2+4+8 (skärmad): 0,03+0,02+0,05+0,06 = 0,16 tim."
-  },
-  {
-    "text": "Arbetskod 2020759-KTRLMATN-50: Kontrollmätning enl. ackordstidslistan 2020759 moment 12, halv tid eftersom mätning görs separat i länkens båda ändar: 0,11 / 2 = 0,055 tim."
   }
 ],
   "itm_tasks": [
@@ -43,12 +40,12 @@
     {
       "tsk_name": "KONTROLLMÄTNING OCH DOKUMENTATION",
       "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "2020759-KTRLMATN-50",
-      "tsk_work_description": "Kontrollmätning med datainstrument inkl. dokumentation t o m kat 6. Endast ena änden.",
+      "tsk_work_code": "2020759120",
+      "tsk_work_description": "Kontrollmätning med datainstrument inkl. dokumentation t o m kat 6.",
       "tsk_construction_stage": "3",
       "tsk_quantity_unit": "st",
-      "tsk_total_quantity": 1.0,
-      "tsk_work_task_duration": 0.055,
+      "tsk_total_quantity": 0.5,
+      "tsk_work_task_duration": 0.11,
       "tsk_material_number": "",
       "tsk_material_name": "",
       "tsk_material_type": "SV-ENR",
