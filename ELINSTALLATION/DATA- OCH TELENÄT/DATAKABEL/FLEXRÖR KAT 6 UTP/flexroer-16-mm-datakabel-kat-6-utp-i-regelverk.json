@@ -34,8 +34,8 @@
     {
       "tsk_name": "FLEXRÖR 16 mm DATAKABEL KAT 6 UTP I REGELVERK",
       "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "20650116",
-      "tsk_work_description": "Montage VP-RÖR",
+      "tsk_work_code": "206501106", 
+      "tsk_work_description": "VP-RÖR 16-20 STÅLREGEL",
       "tsk_construction_stage": "1",
       "tsk_quantity_unit": "m",
       "tsk_total_quantity": 1.0,
