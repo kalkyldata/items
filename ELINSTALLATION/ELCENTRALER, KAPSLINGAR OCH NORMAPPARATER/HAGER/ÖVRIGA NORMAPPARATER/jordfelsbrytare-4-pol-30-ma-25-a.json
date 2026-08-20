@@ -1,0 +1,31 @@
+{
+  "itm_name": "JORDFELSBRYTARE 4-POL 30 mA 40 A",
+  "itm_description": "",
+  "itm_image": "",
+  "itm_keywords": [
+    "ÖVRIGA NORMAPPARATER",
+	"JFB",
+	"RCCB"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "JORDFELSBRYTARE 4-POL 30 mA 40 A",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "209515100",
+      "tsk_work_description": "SNÄPPFASTSÄTTA PER APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "2163661",
+      "tsk_material_name": "JFB TYP A 4-POL 30MA 40A",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 1050.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

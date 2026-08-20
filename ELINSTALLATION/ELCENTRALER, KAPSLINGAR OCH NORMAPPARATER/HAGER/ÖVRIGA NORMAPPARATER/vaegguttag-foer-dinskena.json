@@ -1,0 +1,30 @@
+{
+  "itm_name": "UTTAG FÖR DINSKENA",
+  "itm_description": "1-POLIGT 230 V 16 A UTTAG MED JORD MONTERAT PÅ DINSKENA.",
+  "itm_image": "",
+  "itm_keywords": [
+    "ÖVRIGA NORMAPPARATER",
+    "VÄGGUTTAG FÖR DINSKENA"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "VÄGGUTTAG FÖR DINSKENA",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "209515100",
+      "tsk_work_description": "SNÄPPFASTSÄTTA PER APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "2108781",
+      "tsk_material_name": "JORDAT UTTAG",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 329.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

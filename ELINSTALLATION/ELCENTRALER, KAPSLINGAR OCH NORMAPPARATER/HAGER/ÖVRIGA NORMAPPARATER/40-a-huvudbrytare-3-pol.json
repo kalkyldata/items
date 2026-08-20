@@ -1,0 +1,31 @@
+{
+  "itm_name": "40 A HUVUDBRYTARE 3-POL",
+  "itm_description": "3-POLIG 40 A HUVUDBRYTARE PÅ DINSKENA.",
+  "itm_image": "",
+  "itm_keywords": [
+    "ÖVRIGA NORMAPPARATER",
+	"LASTBRYTARE",
+	"DIN-MONTERAD"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "40 A HUVUDBRYTARE 3-POL",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "209515100",
+      "tsk_work_description": "SNÄPPFASTSÄTTA PER APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "2106000",
+      "tsk_material_name": "HUVUDBRYTARE HA302S 40A",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 370.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
