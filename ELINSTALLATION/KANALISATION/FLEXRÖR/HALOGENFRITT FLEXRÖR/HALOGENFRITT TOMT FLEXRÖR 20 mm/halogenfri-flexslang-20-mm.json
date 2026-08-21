@@ -1,0 +1,70 @@
+{
+  "itm_name": "HALOGENFRITT TOMT FLEXRÖR 20 mm PÅ VALV",
+  "itm_description": "HALOGENFRITT TOMT FLEXIBELT VP-RÖR 20 mm I I UNDERKANTSARMERAD VALVFORM INKLUSIVE VP-RÖR OCH BUNTBAND.",
+  "itm_image": "",
+  "itm_keywords": [
+    "SLANG",
+    "FLEXSLANG",
+    "FLEXIBEL",
+    "TOM SLANG",
+    "FLEXIBELT VP-RÖR",
+    "20mm",
+    "I VALV",
+    "ARMERAD"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "TILLÄGG FÖRLÄGGNING FLEXIBEL VP-SLANG MED KABEL VALV OCH VÄGGFORM",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "206515100",
+      "tsk_work_description": "TILLÄGG FÖRLÄGGNING FLEXIBEL VP-SLANG MED KABEL VALV OCH VÄGGFORM",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "",
+      "tsk_material_name": "",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.0,
+      "tsk_material_user_price": 0.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "BUNTBAND 200 mm",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 3.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1516068",
+      "tsk_material_name": "BUNTBAND T30L SVA 100 ST",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 142.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "HALOGENFRI FLEXSLANG 20 mm",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "206501100",
+      "tsk_work_description": "VP-RÖR 16-20 PÅ FORM U-KANT ARM",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.03,
+      "tsk_material_number": "1414083",
+      "tsk_material_name": "FLEXRÖR HF 20 750N LF 100M",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 15.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
