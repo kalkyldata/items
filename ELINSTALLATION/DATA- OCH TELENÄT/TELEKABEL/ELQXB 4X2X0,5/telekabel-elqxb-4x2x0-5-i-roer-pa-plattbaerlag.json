@@ -1,0 +1,67 @@
+{
+  "itm_name": "ELQXB 4X2X0,5 I RÖR PÅ PLATTBÄRLAG",
+  "itm_description": "HALOGENFRI TELEKABEL ELQXB 4X2X0,5 I VP-RÖR 16 mm PÅ PLATTBÄRLAG, FILIGRANBJÄLKLAG ELLER PLANBJÄLKLAG INKLUSIVE BUNTBAND.",
+  "itm_image": "",
+  "itm_keywords": [
+    "telekabel",
+    "telefonkabel",
+    "EKKX",
+    "TELEKABEL ELQXB 4X2X0"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "HALOGENFRITT VP-RÖR 16 mm PÅ PLATTBÄRLAG",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "206501102",
+      "tsk_work_description": "VP-RÖR 16-20 PÅ PLANBJÄLKLAG",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.05,
+      "tsk_material_number": "1416752",
+      "tsk_material_name": "VP-RÖR 16MM 750N HF, 3M",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 43.7,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "SKARVMUFF 16 ",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1400652",
+      "tsk_material_name": "SKARVMUFF 16MM LSZH",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.3,
+      "tsk_material_user_price": 2.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+
+    {
+      "tsk_name": "TELEKABEL ELQXB 4X2X0,5 I RÖR",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207536100",
+      "tsk_work_description": "KABEL TOM 7MM SPEC 0",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "4827023",
+      "tsk_material_name": "ELQXB 4X2X0,5 VIT B100",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 21.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

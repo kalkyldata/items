@@ -1,0 +1,49 @@
+{
+  "itm_name": "ELQXB 10X2X0,5 PÅ STEGE",
+  "itm_description": "HALOGENFRI TELEKABEL ELQXB 10X2X0,5 PÅ VERTIKAL ELLER HORISONTELL KABELSTEGE,ANKARSKENA, BÄRLINA, KABELHYLLA ELLER KABELRÄNNA INKLUSIVE BUNTBAND.",
+  "itm_image": "",
+  "itm_keywords": [
+    "telekabel",
+    "telefonkabel",
+    "EKKX",
+    "TELEKABEL ELQXB 10X2X0"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "BUNTBAND 200 mm",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 3.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1516068",
+      "tsk_material_name": "BUNTBAND T30L SVA 100 ST",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 142.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "TELEKABEL ELQXB 10X2X0,5 PÅ STEGE",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207536111",
+      "tsk_work_description": "KABEL TOM 10 MM SPEC 1",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.03,
+      "tsk_material_number": "4827043",
+      "tsk_material_name": "ELQXB Pure 10x2x0,5 VIT B100",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 59.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

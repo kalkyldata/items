@@ -1,0 +1,49 @@
+{
+  "itm_name": "ELQXB 1X4X0,5 PÅ VÄGG",
+  "itm_description": "HALOGENFRI TELEKABEL ELQXB 1X4X0,5 UTVÄNDIGT KLAMRAD PÅ VÄGG, GOLVLIST, DÖRRFODER ELLER TAKLIST.",
+  "itm_image": "",
+  "itm_keywords": [
+    "telekabel",
+    "telefonkabel",
+    "EKKX",
+    "TELEKABEL ELQXB 1X4X0"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "SPIKKLAMMER 3-5 VIT",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 5.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1501506",
+      "tsk_material_name": "CLIPS C3-5 VIT SP16",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 100.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "TELEKABEL ELQXB 1X4X0,5 PÅ VÄGG",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207536112",
+      "tsk_work_description": "KABEL TOM 10MM SPEC 2",
+      "tsk_construction_stage": "2",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.1,
+      "tsk_material_number": "4827010",
+      "tsk_material_name": "ELQXBE PURE 1X4X0,5 VIT R100",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 12.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
