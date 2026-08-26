@@ -1,0 +1,46 @@
+{
+  "itm_name": "DOSLOCK MED UTLOPP FÖR INFÄLLD KOPPLINGS- ELLER SPISDOSA",
+  "itm_description": "VITT SKRUVFASTSATT DOSLOCK MED UTLOPP FÖR INFÄLLD KOPPLINGS- ELLER SPISDOSA",
+  "itm_image": "",
+  "itm_keywords": [
+    "TILLBEHÖR INFÄLLDA DOSOR"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "DOSLOCK MED UTLOPP KOPPLINGS- ELLER SPISDOSA",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2010540100",
+      "tsk_work_description": "LOCK TOM 4SKR MONTERA",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "1422150",
+      "tsk_material_name": "DOSLOCK UTL KDL-U/SKRUV",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 42.2,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "DOSSKRUV",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 2.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1422231",
+      "tsk_material_name": "DOSSKRUV 3X29 FRP100",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 91.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

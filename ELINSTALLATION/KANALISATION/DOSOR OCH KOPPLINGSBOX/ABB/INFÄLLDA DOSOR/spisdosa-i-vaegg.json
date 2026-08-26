@@ -1,0 +1,63 @@
+{
+  "itm_name": "SPISDOSA I VÄGG",
+  "itm_description": "",
+  "itm_image": "",
+  "itm_keywords": [
+    "INFÄLLDA DOSOR"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "REGELFÄSTE TRÄ ELLER PLÅT",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1422235",
+      "tsk_material_name": "REGELFÄSTE TRÄ/PLÅT DUBBEL",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 27.2,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "MONTAGESKRUV PLÅT",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 2.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1545216",
+      "tsk_material_name": "PLÅTSKRUV TSE-4,2X31",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 231.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "KOPPLINGSDOSA ENKEL- OCH DUBBELGIPS",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "206538104",
+      "tsk_work_description": "DOSA 80 MM P",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.07,
+      "tsk_material_number": "1422040",
+      "tsk_material_name": "SPIS-/KOPPLINGSDOSA 13/26",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 93.5,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

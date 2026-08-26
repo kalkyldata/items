@@ -1,0 +1,29 @@
+{
+  "itm_name": "TÄCKLOCK FÖR INFÄLLD APPARATDOSA",
+  "itm_description": "VITT SKRUVFASTSATT TÄCKLOCK FÖR INFÄLLD APPARATDOSA.",
+  "itm_image": "",
+  "itm_keywords": [
+    "TILLBEHÖR INFÄLLDA DOSOR"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "TÄCKLOCK APPARATDOSA",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2010540100",
+      "tsk_work_description": "LOCK TOM 4SKR MONTERA",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "1422460",
+      "tsk_material_name": "TÄCKLOCK STL 60/SKRUVFAST",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 28.8,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

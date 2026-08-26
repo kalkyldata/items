@@ -1,0 +1,63 @@
+{
+  "itm_name": "TAKDOSA I TAK",
+  "itm_description": "INFÄLLD HALOGENFRI TAKDOSA MONTERAD I UNDERTAK INKLUSIVE DOSFÄSTE OCH KABELKOPPLINGAR.",
+  "itm_image": "",
+  "itm_keywords": [
+    "INFÄLLDA DOSOR"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "TAKDOSA ENKEL- OCH DUBBELSKIVA",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "206538124",
+      "tsk_work_description": "DOSA 80 MM I TAK P",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.1,
+      "tsk_material_number": "1422610",
+      "tsk_material_name": "TAKDOSA, 13/26",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 115.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "DOSKOPPLING",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207684110",
+      "tsk_work_description": "DOSKOPPLING",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.1,
+      "tsk_material_number": "1440926",
+      "tsk_material_name": "TOPPKLÄMMA 773-108",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 5.0,
+      "tsk_material_user_price": 7.3,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "REGELFÄSTE TRÄ ELLER PLÅT",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1422235",
+      "tsk_material_name": "REGELFÄSTE TRÄ/PLÅT DUBBEL",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 27.2,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

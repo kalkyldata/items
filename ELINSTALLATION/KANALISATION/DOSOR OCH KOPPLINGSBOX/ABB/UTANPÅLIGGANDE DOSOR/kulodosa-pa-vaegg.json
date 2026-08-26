@@ -1,0 +1,63 @@
+{
+  "itm_name": "KULODOSA PÅ VÄGG",
+  "itm_description": "UTANPÅLIGGANDE VIT HALOGENFRI KULODOSA PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL OCH KABELKOPPLINGAR.",
+  "itm_image": "",
+  "itm_keywords": [
+    "UTANPÅLIGGANDE DOSOR"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "DOSKOPPLING",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207684110",
+      "tsk_work_description": "DOSKOPPLING",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.1,
+      "tsk_material_number": "",
+      "tsk_material_name": "",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.0,
+      "tsk_material_user_price": 0.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "MONTERINGSSKRUV 5,0X32",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 2.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1534901",
+      "tsk_material_name": "MONT SKRUV TMP-C3 5,0X32",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 286.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "KULODOSA",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207690100",
+      "tsk_work_description": "KULODOSA OAVSETT UNDERLAG",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.39,
+      "tsk_material_number": "1437552",
+      "tsk_material_name": "KULODOSA AP 12 MED PLINT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 107.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

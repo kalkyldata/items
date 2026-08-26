@@ -1,0 +1,63 @@
+{
+  "itm_name": "KOPPLINGSDOSA PÅ STEGE MED DRAGAVLASTNING",
+  "itm_description": "UTANPÅLIGGANDE VIT HALOGENFRI KOPPLINGSDOSA KAPSLAD ≥ IP55 PÅ KABELSTEGE INKLUSIVE FÄSTPLÅT, KABELKOPPLINGAR OCH 1 STYCKEN DRAGAVLASTNING FÖR ANSLUTNINGSKABEL.",
+  "itm_image": "",
+  "itm_keywords": [
+    "UTANPÅLIGGANDE DOSOR"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "DOSKOPPLING",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207684110",
+      "tsk_work_description": "DOSKOPPLING",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.1,
+      "tsk_material_number": "1440926",
+      "tsk_material_name": "TOPPKLÄMMA 773-108",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 5.0,
+      "tsk_material_user_price": 7.3,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "KOPPLINGSDOSA PÅ FÄSTPLÅT",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207693100",
+      "tsk_work_description": "KAPSLAD DOSA TOM 2.5 MM2 MONT PL",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.41,
+      "tsk_material_number": "1115590",
+      "tsk_material_name": "FÄSTPLÅT+DOSA MP-112 SD IP44",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 185.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "DRAGAVLASTARE",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2010534100",
+      "tsk_work_description": "MONT I DRAGAVLASTNING",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.03,
+      "tsk_material_number": "1438404",
+      "tsk_material_name": "DRAGAVLASTARE UTAN PLINT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 44.4,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

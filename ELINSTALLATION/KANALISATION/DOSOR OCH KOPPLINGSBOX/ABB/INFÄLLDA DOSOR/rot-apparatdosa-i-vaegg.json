@@ -1,0 +1,47 @@
+{
+  "itm_name": "ROT-APPARATDOSA I VÄGG",
+  "itm_description": "INFÄLLD HALOGENFRI ROT-APPARATDOSA 74 mm I DIAMETER. MONTERAD I SKIVÄGG MED TJOCKLEK MELLAN 9 - 39 mm INKLUSIVE HÅLTAGNING.", 
+  "itm_image": "",
+  "itm_keywords": [
+    "INFÄLLDA DOSOR",
+    "ROTDOSA"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "ROT-APPARATDOSA I VÄGG",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "206538105",
+      "tsk_work_description": "DOSA 80 MM MED BYGLAR",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.06,
+      "tsk_material_number": "1420079",
+      "tsk_material_name": "APP-DOSA 10-17MM EFTERMONT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 76.5,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "HÅLTAGNING SKIVA",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2012578203",
+      "tsk_work_description": "L",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.12,
+      "tsk_material_number": "",
+      "tsk_material_name": "",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.0,
+      "tsk_material_user_price": 0.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
