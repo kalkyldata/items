@@ -1,0 +1,50 @@
+{
+  "itm_name": "STÅLTRÅD ANSLUTEN PÅ ARMERINGSJÄRN",
+  "itm_description": "STÅLTRÅD TYP RUNDLEDARE AV VARMFÖRZINKAT STÅL MED DIAMETER 8 MM OCH TVÄRSNITT 50 mm² MONTERAD OCH ANSLUTEN PÅ ARMERINGSJÄRN ELLER ARMERINGSPLATTA.",
+  "itm_image": "",
+  "itm_keywords": [
+    "POTENTIALUTJÄMNING",
+    "SKYDDSUTJÄMNING",
+	"PUS-LINA",
+	"PUS PÅ PLATTA",
+    "LINA OCH KABEL POTENTIALUTJ."
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "STÅLTRÅD PÅ ARMERINGSJÄRN",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "207535134",
+      "tsk_work_description": "JORDLINOR BLOCK KANAL 50-70 KVMM",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "m",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.05,
+      "tsk_material_number": "0681315",
+      "tsk_material_name": "STÅLTRÅD D8MM RING 125",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 41.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "ANSLUTNINGSKLÄMMA",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2010500104",
+      "tsk_work_description": "INKOPPLING 50-70",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 0.5,
+      "tsk_work_task_duration": 0.04,
+      "tsk_material_number": "0681593",
+      "tsk_material_name": "VARIO-SNABBFÖRBINDN ST 6-10MM",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1,
+      "tsk_material_user_price": 49.9,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
