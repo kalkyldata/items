@@ -1,0 +1,46 @@
+{
+  "itm_name": "VITT YTTERHÖRN 2-FACK 161x72 mm",
+  "itm_description": "VITT YTTERHÖRN I ALUMINIUM FÖR FÖNSTERBÄNKSKANAL TYP INKA 161-2 H161xB72 mm.",
+  "itm_image": "",
+  "itm_keywords": [
+    "Schneider"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "VITT YTTERHÖRN 2-FACK 161x72 mm",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2013514170",
+      "tsk_work_description": "AVVINKLA KANAL FÄRDIG DETALJ",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.18,
+      "tsk_material_number": "1162480",
+      "tsk_material_name": "YTTERHÖRN INKA 161-2 VIT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 2680.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "SKARVJÄRN",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1163666",
+      "tsk_material_name": "SKARVSTYCKE SS-A",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 57.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
