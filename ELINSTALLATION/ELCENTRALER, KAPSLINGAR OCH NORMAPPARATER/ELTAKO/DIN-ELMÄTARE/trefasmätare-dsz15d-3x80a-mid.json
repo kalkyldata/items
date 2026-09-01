@@ -1,0 +1,40 @@
+{
+  "itm_name": "DSZ15D-3x80A MID",
+  "itm_description": "Trefasmätare Max 80 A MID-godkännande för att få användas för debitering. 4 moduler bred.  E-nummer: 0900184",
+  "itm_image": "",
+  "itm_keywords": [
+    "Dsz12",
+    "Dsz12d",
+    "Dsz12d-3x80a",
+    "Dsz12d-3x80a mid",
+    "Eltako",
+    "Mätare",
+    "Elmätare",
+    "Energimätare",
+    "Trefas",
+    "Trefasmätare",
+    "3-fas",
+    "3-fasmätare"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "DSZ15D-3x80A MID",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "209515100",
+      "tsk_work_description": "SNÄPPFASTSÄTTA  PER APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "0900184",
+      "tsk_material_name": "ENERGIMÄTARE 3-FAS 80A MID",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 3795.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
