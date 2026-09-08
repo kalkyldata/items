@@ -1,0 +1,34 @@
+{
+  "itm_name": "IMPULSRELÄ ES61-UC",
+  "itm_description": "IMPULSRELÄ MED 1 POTENTIALFRI NO-KONTAKT MONTERAD I BEFINTLIG DOSA. STYRSPÄNNING PÅ 10 VDC TILL 253 VAC. MAX 10 A OCH 2000 W RESISTIV LAST.",
+  "itm_image": "",
+  "itm_keywords": [
+    "Eltako",
+    "Dos",
+    "Dosmonterat",
+    "Arbetström",
+    "Arbetströmsrelä",
+    "Dos-monterat"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "ES61-UC",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2011009100",
+      "tsk_work_description": "Skyddstransformator 12 V, dimmerpuckar, komplett monterad",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.14,
+      "tsk_material_number": "4003137",
+      "tsk_material_name": "IMPULSRELÄ INF. MONTAGE",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 655.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

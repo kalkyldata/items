@@ -1,0 +1,30 @@
+{
+  "itm_name": "DOSMONTERAD TRAPPAUTOMAT",
+  "itm_description": "TRAPPAUTOMAT 1 EJ POTENTIALFRI NO-KONTAKT INSTALLERAD I BEFINTLIG DOSA. LÄMPLIG FÖR GLÖDLAMPSLAST UPP TILL 2000W, LÅGENERGILAMPOR (ESL) OCH 230 V-LED-LAMPOR UPP TILL 200W. FRÅNSLAGNINGSVARNING OCH KONSTANT-LJUSFUNKTIONER, STYRBAR VIA TRYCKKNAPPAR.",
+  "itm_image": "",
+  "itm_keywords": [
+    "Eltako",
+    "Trappautomat"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "TLZ61NP-230V",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2011009100",
+      "tsk_work_description": "Skyddstransformator 12 V, dimmerpuckar, komplett monterad",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.14,
+      "tsk_material_number": "1339681",
+      "tsk_material_name": "TRAPPAUTOMAT 1-12 MIN 230V INF",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 623.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
