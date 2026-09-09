@@ -1,0 +1,47 @@
+{
+  "itm_name": "TREVÄGS VÄGGUTTAG I KANAL",
+  "itm_description": "TREVÄGS TVÅPOLIGT VÄGGUTTAG 230 V I FÖNSTERBÄNKSKANAL MED JORD. FÖR FÖNSTERBÄNKSKANAL TYP INKA.",
+  "itm_image": "",
+  "itm_keywords": [
+    "Schneider",
+    "Uttag i kontorskanal"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "TREVÄGS VÄGGUTTAG I KANAL",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2013518120",
+      "tsk_work_description": "INKOPPLING AV SNABBKOPLING I KANAL",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.17,
+      "tsk_material_number": "1166950",
+      "tsk_material_name": "UTTAG CYB-PS 3-VÄGS 250V",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 418.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "TILLÄGG UPPSKALNING OCH DRAGAVLASTNING",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2013518150",
+      "tsk_work_description": "TILL",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.09,
+      "tsk_material_number": "",
+      "tsk_material_name": "",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.0,
+      "tsk_material_user_price": 0.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
