@@ -1,0 +1,32 @@
+{
+  "itm_name": "IMPULSRELÄ ES12-200-UC",
+  "itm_description": "Din-monterat impulsrelä med 2 NO-kontakter. Styrspänning på 8-253 VAC eller 10-230 VDC. Max 2000 W resistiv last. 1 modul bred.",
+  "itm_image": "",
+  "itm_keywords": [
+    "Impuls",
+    "Relä",
+    "Impulsrelä",
+    "Eltako"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "ES12-200-UC",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "209515100",
+      "tsk_work_description": "SNÄPPFASTSÄTTA  PER APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "4003127",
+      "tsk_material_name": "IMPULSRELÄ ELEKTRONISKT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 665.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

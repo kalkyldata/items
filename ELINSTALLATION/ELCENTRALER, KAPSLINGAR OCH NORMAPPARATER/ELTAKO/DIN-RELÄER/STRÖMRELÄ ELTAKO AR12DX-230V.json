@@ -1,0 +1,31 @@
+{
+  "itm_name": "STRÖMRELÄ ELTAKO AR12DX-230V",
+  "itm_description": "Din-monterat strömrelä med 1 potentialfri växlande kontakt. Växlar när inställda strömmen över- eller underskrids. Styrspänning på 230 VAC och 2000 W i resistiv last. Max 16 A. 1 modul bred.",
+  "itm_image": "",
+  "itm_keywords": [
+    "Eltako",
+    "Relä",
+    "Strömrelä"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "AR12DX-230V",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "209515100",
+      "tsk_work_description": "SNÄPPFASTSÄTTA PER APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "3888200",
+      "tsk_material_name": "STRÖMRELÄ 1VXL 16A AR12DX-230V",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 752.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "itm_name": "TREFASMÄTARE ELTAKO DSZ12E-3x80A",
+  "itm_description": "Trefasmätare Max 80 A 4 moduler bred.",
+  "itm_image": "",
+  "itm_keywords": [
+    "Eltako",
+    "Mätare",
+    "Elmätare energimätare",
+    "Trefasmätare"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "DSZ12E-3x80A",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "209515100",
+      "tsk_work_description": "SNÄPPFASTSÄTTA  PER APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "0981687",
+      "tsk_material_name": "ENERGIMÄTARE 3-FAS 80A EKO",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 1686.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
