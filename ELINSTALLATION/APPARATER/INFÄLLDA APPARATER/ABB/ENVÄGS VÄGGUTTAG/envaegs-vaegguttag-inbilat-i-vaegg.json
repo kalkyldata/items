@@ -1,17 +1,10 @@
 {
-  "itm_name": "KORSOMKOPPLARE INBILAD I VÄGG",
-  "itm_description": "KORSOMKOPPLARE I APPARATDOSA INBILAD MED MASKIN I BETONGVÄGG INKLUSIVE HALOGENFRI APPARATDOSA.",
+  "itm_name": "ENVÄGS VÄGGUTTAG INBILAT I VÄGG",
+  "itm_description": "INFÄLLT ENVÄGS TVÅPOLIGT VÄGGUTTAG 230 V MED JORD I APPARATDOSA INBILAD MED MASKIN I BETONGVÄGG INKLUSIVE HALOGENFRI APPARATDOSA.",
   "itm_image": "",
   "itm_keywords": [
-    "OMKOPPLARE OCH TRYCKKNAPPAR",
-    "INBILAT",
-    "INBILNING",
-    "INFRÄST",
-    "URFRÄST",
-    "FRÄST",
-    "FRÄSA",
-    "FRÄSA IN",
-    "FRÄSNING"
+    "ENPOLIGA VÄGGUTTAG",
+    "ENPOLIGT VÄGGUTTAG INBILAT I VÄGG"
   ],
   "itm_quantity": 1,
   "itm_comments": [],
@@ -34,19 +27,19 @@
       "tsk_comments": []
     },
     {
-      "tsk_name": "KORSOMKOPPLARE",
+      "tsk_name": "ENVÄGS VÄGGUTTAG MED JORD",
       "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "208502101",
-      "tsk_work_description": "INFÄLLD APPARAT T O M  6 INKOPPLINGAR",
+      "tsk_work_code": "208502100",
+      "tsk_work_description": "INFÄLLD APPARAT",
       "tsk_construction_stage": "3",
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 1.0,
-      "tsk_work_task_duration": 0.15,
-      "tsk_material_number": "1815031",
-      "tsk_material_name": "STRÖMST KORS INF JUSSI",
+      "tsk_work_task_duration": 0.12,
+      "tsk_material_number": "1815206",
+      "tsk_material_name": "1-V UTTAG MJ M SNABBK",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 1.0,
-      "tsk_material_user_price": 228.0,
+      "tsk_material_user_price": 146.0,
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     }

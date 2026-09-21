@@ -1,0 +1,64 @@
+{
+  "itm_name": "ENVÄGS VÄGGUTTAG MED JORDFELSBRYTARE I BEFINTLIG DOSA",
+  "itm_description": "INFÄLLD JORDFELSBRYTARE KOMBINERAD MED ENVÄGS TVÅPOLIGT VÄGGUTTAG 230 V MED JORD INSTALLERAD I BEFINTLIG DOSA.",
+  "itm_image": "",
+  "itm_keywords": [
+    "ENPOLIGA VÄGGUTTAG",
+    "ENPOLIGT VÄGGUTTAG MED JORDFELSBRYTARE I BEFINTLIG DOSA"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "APPARATDOSA ENKEL- OCH DUBBELGIPS",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "206538104",
+      "tsk_work_description": "DOSA 80 MM P",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.07,
+      "tsk_material_number": "1422242",
+      "tsk_material_name": "A-DOSA 13/26 U. TILLBEHÖR",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 57.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "ENVÄGS VÄGGUTTAG MED JORDFELSBRYTARE",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "208502100",
+      "tsk_work_description": "INFÄLLD APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.12,
+      "tsk_material_number": "1815174",
+      "tsk_material_name": "UTTAG M INF-J FEL BRY 1-V",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 2100.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "TÄCKRAM 1-FACK",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1815151",
+      "tsk_material_name": "TÄCKRAM 1-FACK",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 34.7,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

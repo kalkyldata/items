@@ -1,9 +1,10 @@
 {
-  "itm_name": "KORSOMKOPPLARE I VÄGG",
-  "itm_description": "INFÄLLD KORSOMKOPPLARE I APPARATDOSA MONTERAD PÅ REGEL I REGELVERK. INKLUSIVE HALOGENFRI APPARATDOSA.",
+  "itm_name": "ENVÄGS VÄGGUTTAG MED JORDFELSBRYTARE I VÄGG",
+  "itm_description": "INFÄLLD JORDFELSBRYTARE KOMBINERAD MED ENVÄGS TVÅPOLIGT VÄGGUTTAG 230 V MED JORD I APPARATDOSA MONTERAD PÅ REGEL I REGELVERK. INKLUSIVE HALOGENFRI APPARATDOSA.",
   "itm_image": "",
   "itm_keywords": [
-    "OMKOPPLARE OCH TRYCKKNAPPAR"
+    "ENPOLIGA VÄGGUTTAG",
+    "ENPOLIGT VÄGGUTTAG MED JORDFELSBRYTARE I VÄGG"
   ],
   "itm_quantity": 1,
   "itm_comments": [],
@@ -26,23 +27,6 @@
       "tsk_comments": []
     },
     {
-      "tsk_name": "REGELFÄSTE TRÄ ELLER PLÅT",
-      "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "",
-      "tsk_work_description": "",
-      "tsk_construction_stage": "1",
-      "tsk_quantity_unit": "st",
-      "tsk_total_quantity": 1.0,
-      "tsk_work_task_duration": 0.0,
-      "tsk_material_number": "1422235",
-      "tsk_material_name": "REGELFÄSTE TRÄ/PLÅT DUBBEL",
-      "tsk_material_type": "SV-ENR",
-      "tsk_material_amount": 1.0,
-      "tsk_material_user_price": 27.2,
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": []
-    },
-    {
       "tsk_name": "MONTAGESKRUV PLÅT",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "",
@@ -60,19 +44,53 @@
       "tsk_comments": []
     },
     {
-      "tsk_name": "KORSOMKOPPLARE",
+      "tsk_name": "REGELFÄSTE TRÄ ELLER PLÅT",
       "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "208502101",
-      "tsk_work_description": "INFÄLLD APPARAT T O M  6 INKOPPLINGAR",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1422235",
+      "tsk_material_name": "REGELFÄSTE TRÄ/PLÅT DUBBEL",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 27.2,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "ENVÄGS VÄGGUTTAG MED JORDFELSBRYTARE",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "208502100",
+      "tsk_work_description": "INFÄLLD APPARAT",
       "tsk_construction_stage": "3",
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 1.0,
-      "tsk_work_task_duration": 0.15,
-      "tsk_material_number": "1815031",
-      "tsk_material_name": "STRÖMST KORS INF JUSSI",
+      "tsk_work_task_duration": 0.12,
+      "tsk_material_number": "1815174",
+      "tsk_material_name": "UTTAG M INF-J FEL BRY 1-V",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 1.0,
-      "tsk_material_user_price": 228.0,
+      "tsk_material_user_price": 2100.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "TÄCKRAM 1-FACK",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1815151",
+      "tsk_material_name": "TÄCKRAM 1-FACK",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 34.7,
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     }
