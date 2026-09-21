@@ -1,0 +1,65 @@
+{
+  "itm_name": "TVÅVÄGS VÄGGUTTAG I VÄGG",
+  "itm_description": "INFÄLLT TVÅVÄGS VÄGGUTTAG I VÄGG 230 V MED JORD I APPARATDOSA. MONTERAD PÅ REGEL I REGELVERK. INKLUSIVE HALOGENFRI APPARADOSA.",
+  "itm_image": "",
+  "itm_keywords": [
+    "Infällt",
+    "Dubbelt",
+    "Tvåpoliga"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "TVÅVÄGS VÄGGUTTAG MED JORD",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "208502100",
+      "tsk_work_description": "INFÄLLD APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.12,
+      "tsk_material_number": "1848486",
+      "tsk_material_name": "UTTAG 2-VÄGS MJ INF SKRUV SVART",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 371.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "APPRATDOSA ENKEL- OCH DUBBELGIPS",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "206538104",
+      "tsk_work_description": "DOSA 80 MM PÅ KOTTLING",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.07,
+      "tsk_material_number": "1422242",
+      "tsk_material_name": "APPARATDOSA 13/26 U.TILLBEHÖR",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 56.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "REGELFÄSTE TRÄ ELLER PLÅT",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1422235",
+      "tsk_material_name": "REGELFÄSTE TRÄ/PLÅT DUBBEL",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 26.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

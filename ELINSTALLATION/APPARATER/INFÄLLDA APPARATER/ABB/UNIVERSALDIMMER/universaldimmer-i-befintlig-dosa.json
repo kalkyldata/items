@@ -1,0 +1,29 @@
+{
+  "itm_name": "UNIVERSALDIMMER I BEFINTLIG DOSA",
+  "itm_description": "UNIVERSALDIMMER MED TRAPPFUNKTION INSTALLERAD I BEFINTLIG DOSA. FÖR REGLERING AV 2-200 W GLÖDLJUS OCH 2-100 W LED, ELEKTRONISK ELLER KONVENTIONELL TRANSFORMATOR.",
+  "itm_image": "",
+  "itm_keywords": [
+    "ELEKTRONISKA VÄGGAPPARATER"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "UNIVERSALDIMMER",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "208502100",
+      "tsk_work_description": "INFÄLLD APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.12,
+      "tsk_material_number": "1361056",
+      "tsk_material_name": "UNIVERSALDIM VRID 420VA ",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 850.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

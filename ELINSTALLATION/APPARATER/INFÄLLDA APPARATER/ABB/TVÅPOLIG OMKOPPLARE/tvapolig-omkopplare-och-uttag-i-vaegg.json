@@ -1,6 +1,6 @@
 {
-  "itm_name": "TRAPPOMKOPPLARE OCH UTTAG I VÄGG",
-  "itm_description": "INFÄLLD TRAPPOMKOPPLARE OCH ENVÄGSUTTAG I GEMENSAM TÄCKRAM I APPARATDOSOR MONTERAD PÅ REGEL I REGELVERK. INKLUSIVE HALOGENFRIA APPARATDOSOR OCH TÄCKRAM.",
+  "itm_name": "TVÅPOLIG OMKOPPLARE OCH UTTAG I VÄGG",
+  "itm_description": "INFÄLLD TVÅPOLIG OMKOPPLARE OCH ENVÄGSUTTAG I GEMENSAM TÄCKRAM I APPARATDOSOR MONTERAD PÅ REGEL I REGELVERK. INKLUSIVE HALOGENFRIA APPARATDOSOR OCH TÄCKRAM.",
   "itm_image": "",
   "itm_keywords": [
     "OMKOPPLARE OCH TRYCKKNAPPAR"
@@ -77,7 +77,7 @@
       "tsk_comments": []
     },
     {
-      "tsk_name": "TRAPPOMKOPPLARE",
+      "tsk_name": "TVÅPOLIG OMKOPPLARE",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "208502100",
       "tsk_work_description": "INFÄLLD APPARAT",
@@ -85,16 +85,16 @@
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 1.0,
       "tsk_work_task_duration": 0.12,
-      "tsk_material_number": "1815021",
-      "tsk_material_name": "STRÖMST TRAPP INF JUSSI",
+      "tsk_material_number": "1815006",
+      "tsk_material_name": "STRÖMST 2-POL INF JUSSI",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 1.0,
-      "tsk_material_user_price": 129.0,
+      "tsk_material_user_price": 254.0,
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
     {
-      "tsk_name": "ENVÄGS UTTAG",
+            "tsk_name": "ENVÄGS UTTAG",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "208502101",
       "tsk_work_description": "INFÄLLD APPARAT T O M 6 INKOPPLINGAR",

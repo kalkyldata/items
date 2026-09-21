@@ -1,0 +1,29 @@
+{
+  "itm_name": "VRIDPOTENTIOMETER I BEFINTLIG DOSA",
+  "itm_description": "VRIDPOTENTIOMETER 1-10 V INSTALLERAD I BEFINTLIG DOSA.",
+  "itm_image": "",
+  "itm_keywords": [
+    "ELEKTRONISKA VÄGGAPPARATER"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "VRIDPOTENTIOMETER 1-10 V",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "208502100",
+      "tsk_work_description": "INFÄLLD APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.12,
+      "tsk_material_number": "1360017",
+      "tsk_material_name": "VRID POTENTIOMETER 1-10V",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 1145.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

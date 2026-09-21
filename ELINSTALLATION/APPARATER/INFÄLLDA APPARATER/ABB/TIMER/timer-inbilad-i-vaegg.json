@@ -1,0 +1,71 @@
+{
+  "itm_name": "TIMER INBILAD I VÄGG",
+  "itm_description": "TIMER 15 MIN - 8 TIM I APPARATDOSA INBILAD MED MASKIN I BETONGVÄGG INKLUSIVE HALOGENFRI APPARATDOSA.",
+  "itm_image": "",
+  "itm_keywords": [
+    "ELEKTRONISKA VÄGGAPPARATER",
+    "INBILAT",
+    "INBILNING",
+    "INFRÄST",
+    "URFRÄST",
+    "FRÄST",
+    "FRÄSA",
+    "FRÄSA IN",
+    "FRÄSNING"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "APPARATDOSA ENKEL- OCH DUBBELGIPS",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "206538100",
+      "tsk_work_description": "DOSA 80 MM INBILAD BETONG M",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.14,
+      "tsk_material_number": "1422242",
+      "tsk_material_name": "A-DOSA 13/26 U. TILLBEHÖR",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 57.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "TIMER",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "208502100",
+      "tsk_work_description": "INFÄLLD APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.12,
+      "tsk_material_number": "1815080",
+      "tsk_material_name": "TIMER BASIC, 10A, 2-POL, JUSSI",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 1170.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "TÄCKRAM 1-FACK",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1815151",
+      "tsk_material_name": "TÄCKRAM 1-FACK",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 34.7,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
