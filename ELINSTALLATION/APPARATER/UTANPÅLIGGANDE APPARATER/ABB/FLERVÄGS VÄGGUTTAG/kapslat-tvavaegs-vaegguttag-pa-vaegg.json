@@ -1,10 +1,12 @@
 {
   "itm_name": "KAPSLAT TVÅVÄGS VÄGGUTTAG PÅ VÄGG",
-  "itm_description": "",
+  "itm_description": "UTANPÅLIGGANDE TVÅPOLIGT TVÅVÄGS VÄGGUTTAG KAPSLAT IP44 PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL.",
   "itm_image": "",
   "itm_keywords": [
     "UTANPÅLIGGANDE APPARATER",
     "TVÅPOLIGA VÄGGUTTAG",
+    "FUKTSKYDDAT,
+    "DAMMSKYDDAT",
     "KAPSLAT TVÅPOLIGT VÄGGUTTAG I VÄGG"
   ],
   "itm_quantity": 1,
@@ -28,7 +30,7 @@
       "tsk_comments": []
     },
     {
-      "tsk_name": "KAPSLAT TVÅVÄGS VÄGGUTTAG I VÄGG",
+      "tsk_name": "KAPSLAT TVÅVÄGS VÄGGUTTAG PÅ VÄGG",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "208502103",
       "tsk_work_description": "UTVÄNDIG APPARAT KAPSLAD",
