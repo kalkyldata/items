@@ -1,0 +1,46 @@
+{
+  "itm_name": "LAMPUTTAG PÅ VÄGG",
+  "itm_description": "UTANPÅLIGGANDE LAMPUTTAG TYP DCL 230 V MED JORD PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL.",
+  "itm_image": "",
+  "itm_keywords": [
+    "UTANPÅLIGGANDE APPARATER"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "MONTERINGSSKRUV 5,0X32",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 2.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1534901",
+      "tsk_material_name": "MONT SKRUV TMP-C3 5,0X32",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 286.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "LAMPUTTAG PÅ VÄGG",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "208502101",
+      "tsk_work_description": "UTVÄNDIG APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.18,
+      "tsk_material_number": "1820213",
+      "tsk_material_name": "LAMPUTTAG DCL UTV BP VIT WDE005033",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 93.5,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
