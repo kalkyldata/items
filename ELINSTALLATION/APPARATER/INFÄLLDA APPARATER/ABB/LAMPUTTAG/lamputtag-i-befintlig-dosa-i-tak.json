@@ -1,0 +1,27 @@
+{
+  "itm_name": "LAMPUTTAG I BEFINTLIG DOSA I TAK",
+  "itm_description": "INFÄLLT LAMPUTTAG TYP DCL 230 V MED JORD OCH TAKKROK INSTALLERAD I BEFINTLIG TAKDOSA.",
+  "itm_image": "",
+  "itm_keywords": [],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "LAMPUTTAG TAK",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "208502100",
+      "tsk_work_description": "INFÄLLD APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.12,
+      "tsk_material_number": "1815137",
+      "tsk_material_name": "LAMPUTTAG TAK INF DCL VIT AKK14",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 116.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
