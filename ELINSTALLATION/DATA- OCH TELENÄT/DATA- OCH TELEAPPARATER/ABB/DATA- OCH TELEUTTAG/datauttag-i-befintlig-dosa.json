@@ -1,0 +1,102 @@
+{
+  "itm_name": "DATAUTTAG I BEFINTLIG DOSA",
+  "itm_description": "INFÄLLT DATAUTTAG KAT6A MED 2 STYCKEN MODULARJACK UTP INSTALLERAD I BEFINTLIG DOSA. INKLUSIVE KABELINKOPPLING, PROVNING OCH MÄRKNING.",
+  "itm_image": "",
+  "itm_keywords": [
+    "RJ45",
+    "MULTIMEDIAUTTAG"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [
+  {
+    "text": "Arbetskod 2020759-UTP: Ijackning och kontaktering av RJ45 UTP med snabbkontakteringsklämma. Summerad tid enl. ackordstidslistan 2020759 moment 1+2+7 (oskärmad): 0,03+0,02+0,06 = 0,11 tim."
+  }
+],
+  "itm_tasks": [
+    {
+      "tsk_name": "MÄRKSKYLT",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "209595200",
+      "tsk_work_description": "TILLVERKA MÄRKSKYLT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.05,
+      "tsk_material_number": "2972115",
+      "tsk_material_name": "ID1 TAPE12 MM POLY SV/VIT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 453.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "FÄSTRAM MODULARJACK",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "202075990",
+      "tsk_work_description": "MONT AV UNDERDEL DOSA",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "5100866",
+      "tsk_material_name": "CPLATTA FÄSTRAM 2XLEXCOM JUSSI",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 66.5,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "TÄCKRAM",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2020759110",
+      "tsk_work_description": "MONT AV KOMPL.-DETALJ",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.04,
+      "tsk_material_number": "1815151",
+      "tsk_material_name": "TÄCKRAM 1-FACK",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 34.7,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "RJ45 MODULARJACK KAT6A UTP",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2020759-UTP",
+      "tsk_work_description": "Ijackning och kontaktering av RJ45 UTP med snabbkontakteringsklämma",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 2.0,
+      "tsk_work_task_duration": 0.11,
+      "tsk_material_number": "5146382",
+      "tsk_material_name": "MODULARJACK RJ45 KAT6A UTP",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 167.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "KONTROLLMÄTNING OCH DOKUMENTATION",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2020759120",
+      "tsk_work_description": "Kontrollmätning med datainstrument inkl. dokumentation t o m kat 6.",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1,
+      "tsk_work_task_duration": 0.11,
+      "tsk_material_number": "",
+      "tsk_material_name": "",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.0,
+      "tsk_material_user_price": 0.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
