@@ -1,6 +1,6 @@
 {
-  "itm_name": "SOCKELDOSA MED PERILEX SPISUTTAG PÅ VÄGG",
-  "itm_description": "UTANPÅLIGGANDE SOCKELDOSA MED PERILEX SPISUTTAG 400 V 16 A MED JORD PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL.",
+  "itm_name": "KAPSLAT PERILEX SPISUTTAG PÅ VÄGG",
+  "itm_description": "UTANPÅLIGGANDE PERILEX SPISUTTAG 400 V 16 A MED JORD KAPSLAT IP44 PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL.",
   "itm_image": "",
   "itm_keywords": [
     "UTANPÅLIGGANDE APPARATER"
@@ -43,19 +43,19 @@
       "tsk_comments": []
     },
     {
-      "tsk_name": "SOCKELDOSA MED PERILEX SPISUTTAG PÅ VÄGG",
+      "tsk_name": "KAPSLAT PERILEX SPISUTTAG PÅ VÄGG",
       "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "208502101",
-      "tsk_work_description": "UTVÄNDIG APPARAT",
+      "tsk_work_code": "208502113",
+      "tsk_work_description": "UTVÄNDIG APPARAT KAPSLAD",
       "tsk_construction_stage": "3",
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 1.0,
-      "tsk_work_task_duration": 0.18,
-      "tsk_material_number": "2408055",
-      "tsk_material_name": "PERILEXUTT POLARVIT",
+      "tsk_work_task_duration": 0.24,
+      "tsk_material_number": "2408012",
+      "tsk_material_name": "VÄGGUTT PERILEX 16A IP44",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 1.0,
-      "tsk_material_user_price": 297.0,
+      "tsk_material_user_price": 253.0,
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     }

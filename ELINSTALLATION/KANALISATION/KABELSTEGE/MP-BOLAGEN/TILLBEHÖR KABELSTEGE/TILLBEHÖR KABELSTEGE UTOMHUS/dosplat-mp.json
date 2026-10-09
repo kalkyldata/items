@@ -1,0 +1,29 @@
+{
+  "itm_name": "DOSPLÅT",
+  "itm_description": "HÅLAD DOSPLÅT MONTERAD PÅ KABELSTEGE AV FABRIKAT MP-BOLAGEN.",
+  "itm_image": "",
+  "itm_keywords": [
+    "MP-bolagen"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "DOSPLÅT",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2012526160",
+      "tsk_work_description": "FÄSTPLÅT BOTTENPLATTA FÖR APP",
+      "tsk_construction_stage": "1",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.04,
+      "tsk_material_number": "1115587",
+      "tsk_material_name": "FÄSTPLÅT HÅLAD",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 108.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
