@@ -1,0 +1,29 @@
+{
+  "itm_name": "PLEJD DOSDIMMER BLUETOOTH I BEFINTLIG DOSA",
+  "itm_description": "UNIVERSALDIMMER TYP DIM-O1 MED TVÅ SEPARATA INGÅNGAR FÖR STYRNING GENOM ÅTERFJÄDRANDE TRYCKKNAPP ELLER RÖRELSEVAKT. PRODUKTEN KAN STYRAS AUTOMATISKT GENOM INBYGGDA TIDSFUNKTIONER SOM ASTRO- OCH VECKOUR, SAMT TRÅDLÖST VIA APPEN ELLER GENOM ANDRA PRODUKTER FRÅN PLEJD. DOSDIMMERN HAR JUSTERBAR MINIMI-, MAXIMI- OCH STARTNIVÅ OCH KLARAR LAST PÅ UPP TILL 300 VA.",
+  "itm_image": "",
+  "itm_keywords": [
+    "Iot"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "DOSDIMMER I APPARATDOSA",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2011009100",
+      "tsk_work_description": "Skyddstransformator 12 V, dimmerpuckar, komplett monterad",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.14,
+      "tsk_material_number": "1377701",
+      "tsk_material_name": "UNIVERSALDIMMER BLUETOOTH LED",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 888.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

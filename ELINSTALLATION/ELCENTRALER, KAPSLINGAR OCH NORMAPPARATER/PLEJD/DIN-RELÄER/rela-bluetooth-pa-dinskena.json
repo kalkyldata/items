@@ -1,0 +1,46 @@
+{
+  "itm_name": "PLEJD RELÄ BLUETOOTH PÅ DIN-SKENA",
+  "itm_description": "RELÄ OCH CONTROLLER TYP CTR-01 MONTERAT PÅ DIN-SKENA INKL DIN-SKENSFÄSTE. SVENSKTILLVERKAD SMART DOSRELÄ/DOSAKTOR/CONTROLLER FÖR ICKE-DIMBARA LASTER SAMT FÖR STYRNING AV TREDJEPARTSPRODUKTER MED 0-10V ELLER 1-10V SÅSOM LED-DRIFTDON OCH HF-DON. STARTAR VID 0W. BRYTFÖRMÅGA RESISTIV LAST 16A, MELLAN 800-3500W BEROENDE PÅ LAST. PRODUKTEN KAN STYRAS AUTOMATISKT GENOM INBYGGDA TIDSFUNKTIONER SOM ASTRO- OCH VECKOUR, SAMT TRÅDLÖST VIA APPEN ELLER GENOM ANDRA PRODUKTER FRÅN PLEJD.",
+  "itm_image": "",
+  "itm_keywords": [
+    "Iot"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "DOSRELÄ PÅ DIN-SKENA",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "209515100",
+      "tsk_work_description": "SNÄPPFASTSÄTTA PER APPARAT",
+      "tsk_construction_stage": "3",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "1377702",
+      "tsk_material_name": "CONTROLLER RELÄ,0/1-10V BT",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 888.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "VÄGG OCH DIN-FÄSTE FÖR PLEJD",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "209515100",
+      "tsk_work_description": "SNÄPPFASTSÄTTA  PER APPARAT",
+      "tsk_construction_stage": "",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "1377790",
+      "tsk_material_name": "VÄGG OCH DIN-FÄSTE FÖR PLEJD",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 27.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
