@@ -1,12 +1,12 @@
 {
   "itm_name": "FXQJ 4X95/50 I MARK",
   "itm_description": "FXQJ 4X95/50 I MARK, KABELGRAV ELLER ÖPPEN KANAL INKLUSIVE MARKERINGSBAND.",
-  "itm_image": "images/images_articles/Fkkj4.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/Fkkj4.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",
-	"KOPPAR",
-	"KOPPARKABEL",
+    "KOPPAR",
+    "KOPPARKABEL",
     "FKKJ",
     "SVART",
     "HALOGENFRI",

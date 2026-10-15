@@ -1,12 +1,12 @@
 {
   "itm_name": "FXQJ 4X120/70 PÅ STEGE",
   "itm_description": "FXQJ 4x120/70 på vertikal eller horisontell kabelstege eller kabelhylla inklusive buntband.",
-  "itm_image": "images/images_articles/Fkkj4.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/Fkkj4.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",
-	"KOPPAR",
-	"KOPPARKABEL",
+    "KOPPAR",
+    "KOPPARKABEL",
     "FKKJ",
     "SVART",
     "HALOGENFRI",

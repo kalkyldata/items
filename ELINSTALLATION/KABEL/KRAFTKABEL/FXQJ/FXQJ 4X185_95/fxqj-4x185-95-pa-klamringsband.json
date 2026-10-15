@@ -1,14 +1,14 @@
 {
   "itm_name": "FXQJ 4X185/95 PÅ KLAMRINGSBAND",
   "itm_description": "FXQJ 4X185/95 PÅ VERTIKALT ELLER HORISONTELLT KLAMRINGSBAND INKLUSIVE KLAMRINGSBAND OCH BUNTBAND.",
-  "itm_image": "images/images_articles/Fkkj4.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/Fkkj4.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",
-	"PÅ VÄGG",
-	"KOPPAR",
-	"KOPPARKABEL",
-	"FKKJ",
+    "PÅ VÄGG",
+    "KOPPAR",
+    "KOPPARKABEL",
+    "FKKJ",
     "SVART",
     "HALOGENFRI",
     "N1XCZ1-R"

@@ -1,13 +1,13 @@
 {
   "itm_name": "FXQJ 3X25/16 PÅ KLAMRINGSBAND",
   "itm_description": "FXQJ 3X25/16 PÅ VERTIKALT ELLER HORISONTELLT KLAMRINGSBAND INKLUSIVE KLAMRINGSBAND OCH BUNTBAND.",
-  "itm_image": "images/images_articles/Fkkj4.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/Fkkj4.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",
-	"PÅ VÄGG",
-	"KOPPAR",
-	"KOPPARKABEL",
+    "PÅ VÄGG",
+    "KOPPAR",
+    "KOPPARKABEL",
     "FKKJ",
     "SVART",
     "HALOGENFRI",

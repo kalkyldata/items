@@ -1,12 +1,12 @@
 {
   "itm_name": "FXQJ 4X50/25 I RÖR PÅ PLATTBÄRLAG",
   "itm_description": "FXQJ 4X50/25 I RÖR PÅ PLATTBÄRLAG, FILIGRANBJÄLKLAG ELLER PLANBJÄLKLAG INKLUSIVE VP-RÖR OCH BUNTBAND.",
-  "itm_image": "images/images_articles/Fkkj4.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/Fkkj4.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",
-	"KOPPAR",
-	"KOPPARKABEL",
+    "KOPPAR",
+    "KOPPARKABEL",
     "FKKJ",
     "SVART",
     "HALOGENFRI",
