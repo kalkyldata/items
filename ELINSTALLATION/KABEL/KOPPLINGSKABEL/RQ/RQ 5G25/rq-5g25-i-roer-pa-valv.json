@@ -1,7 +1,7 @@
 {
   "itm_name": "RQ 5G25 I RÖR PÅ VALV",
   "itm_description": "RQ 5G25 i rör i underkantsarmerad valvform inklusive VP-rör och buntband",
-  "itm_image": "images/images_articles/rq.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/rq.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",
