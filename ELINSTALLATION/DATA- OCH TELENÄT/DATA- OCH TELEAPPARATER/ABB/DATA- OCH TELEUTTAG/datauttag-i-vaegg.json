@@ -1,17 +1,17 @@
 {
   "itm_name": "DATAUTTAG I VÄGG",
   "itm_description": "INFÄLLT DATAUTTAG KAT6A MED 2 STYCKEN MODULARJACK UTP I APPARATDOSA MONTERAD PÅ REGEL I REGELVERK. INKLUSIVE HALOGENFRI APPARATDOSA, KABELINKOPPLING, PROVNING OCH MÄRKNING.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/dubbeltdatauttag.png",
   "itm_keywords": [
     "RJ45",
     "MULTIMEDIAUTTAG"
   ],
   "itm_quantity": 1,
   "itm_comments": [
-  {
-    "text": "Arbetskod 2020759-UTP: Ijackning och kontaktering av RJ45 UTP med snabbkontakteringsklämma. Summerad tid enl. ackordstidslistan 2020759 moment 1+2+7 (oskärmad): 0,03+0,02+0,06 = 0,11 tim."
-  }
-],
+    {
+      "text": "Arbetskod 2020759-UTP: Ijackning och kontaktering av RJ45 UTP med snabbkontakteringsklämma. Summerad tid enl. ackordstidslistan 2020759 moment 1+2+7 (oskärmad): 0,03+0,02+0,06 = 0,11 tim."
+    }
+  ],
   "itm_tasks": [
     {
       "tsk_name": "KONTROLLMÄTNING OCH DOKUMENTATION",

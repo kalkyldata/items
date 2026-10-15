@@ -1,7 +1,7 @@
 {
   "itm_name": "UNIVERSALDIMMER INBILAD I VÄGG",
   "itm_description": "DIMMER MED TRAPPFUNKTION I APPARATDOSA INBILAD MED MASKIN I BETONGVÄGG FÖR REGLERING AV 2-200 W GLÖDLJUS OCH 2-100 W LED, ELEKTRONISK ELLER KONVENTIONELL TRANSFORMATOR INKLUSIVE HALOGENFRI APPARATDOSA.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/2210UJ-214_W4.jpg",
   "itm_keywords": [
     "ELEKTRONISKA VÄGGAPPARATER",
     "INBILAT",
@@ -12,8 +12,8 @@
     "FRÄSA",
     "FRÄSA IN",
     "FRÄSNING",
-	"LJUSREGLERING",
-	"DIMMER"
+    "LJUSREGLERING",
+    "DIMMER"
   ],
   "itm_quantity": 1,
   "itm_comments": [],

@@ -1,7 +1,7 @@
 {
   "itm_name": "SOCKELDOSA MED PERILEX SPISUTTAG PÅ VÄGG",
   "itm_description": "UTANPÅLIGGANDE SOCKELDOSA MED PERILEX SPISUTTAG 400 V 16 A MED JORD PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/e1939030.jpg",
   "itm_keywords": [
     "UTANPÅLIGGANDE APPARATER"
   ],
@@ -25,7 +25,7 @@
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
-	    {
+    {
       "tsk_name": "TILLKOMMANDE MONTERINGSSKRUV 5,0X32",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "208507140",

@@ -1,7 +1,7 @@
 {
   "itm_name": "FLEXRÖR 16 mm DATAKABEL KAT 6 UTP I REGELVERK",
   "itm_description": "HALOGENFRITT FLEXRÖR 16 mm DATAKABEL KAT 6 UTP I VÄGG MED REGELVERK AV STÅLREGLAR INKLUSIVE KLAMMER",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/1402466p.jpg",
   "itm_keywords": [
     "FÖRDRAGEN DATAKABEL",
     "DATAKABEL KAT 6 UTP",
@@ -34,7 +34,7 @@
     {
       "tsk_name": "FLEXRÖR 16 mm DATAKABEL KAT 6 UTP I REGELVERK",
       "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "206501106", 
+      "tsk_work_code": "206501106",
       "tsk_work_description": "VP-RÖR 16-20 STÅLREGEL",
       "tsk_construction_stage": "1",
       "tsk_quantity_unit": "m",

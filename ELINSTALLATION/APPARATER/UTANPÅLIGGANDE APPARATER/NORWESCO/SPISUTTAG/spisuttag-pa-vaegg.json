@@ -1,16 +1,16 @@
 {
   "itm_name": "SPISUTTAG PÅ VÄGG",
   "itm_description": "UTANPÅLIGGANDE SPISUTTAG 230 V 25A MED JORD FÖR FLATSTIFTSKONTAKTER PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/8803136438302.jpg",
   "itm_keywords": [
     "UTANPÅLIGGANDE APPARATER"
   ],
   "itm_quantity": 1,
   "itm_comments": [
-  {
-    "text": "Arbetskod för 3 poligt spisuttag om 25 A saknas i ackordstidslistan. Arbetsuppgiften bedöms motsvara 208502101"
-  }
-],
+    {
+      "text": "Arbetskod för 3 poligt spisuttag om 25 A saknas i ackordstidslistan. Arbetsuppgiften bedöms motsvara 208502101"
+    }
+  ],
   "itm_tasks": [
     {
       "tsk_name": "MONTERINGSSKRUV 5,0X32",
@@ -29,7 +29,7 @@
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
-	    {
+    {
       "tsk_name": "TILLKOMMANDE MONTERINGSSKRUV 5,0X32",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "208507140",

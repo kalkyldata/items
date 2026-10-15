@@ -1,7 +1,7 @@
 {
   "itm_name": "UTANPÅLIGGANDE BILVÄRMARUTTAG",
   "itm_description": "UTANPÅLIGGANDE BILVÄRMARUTTAG BESTYCKAT MED 1 STYCKEN ENVÄGSUTTAG VÄGGUTTAG 230 V MED JORD OCH AVRESETIMER. I KOMBINERAD ≥ IP44 KAPSLING PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/2449465_1.jpg",
   "itm_keywords": [
     "BILVÄRME",
     "BILVÄRMAREUTTAG",
@@ -37,7 +37,7 @@
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
-	{
+    {
       "tsk_name": "TILLÄGG TILLKOMMANDE FÄSTSKRUV",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "208507140",

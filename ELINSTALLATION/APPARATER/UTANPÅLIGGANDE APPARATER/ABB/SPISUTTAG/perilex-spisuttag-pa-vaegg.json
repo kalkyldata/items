@@ -1,7 +1,7 @@
 {
   "itm_name": "PERILEX SPISUTTAG PÅ VÄGG",
   "itm_description": "UTANPÅLIGGANDE PERILEX SPISUTTAG 400 V 16 A MED JORD PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/2064JW-500-side_W4.jpg",
   "itm_keywords": [
     "UTANPÅLIGGANDE APPARATER",
     "PERILEX SPISUTTAG I VÄGG"
@@ -28,7 +28,7 @@
     },
     {
       "tsk_name": "PERILEX SPISUTTAG PÅ VÄGG",
-	  "tsk_work_type": "SV-ATL",
+      "tsk_work_type": "SV-ATL",
       "tsk_work_code": "208502101",
       "tsk_work_description": "UTVÄNDIG APPARAT",
       "tsk_construction_stage": "3",

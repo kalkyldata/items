@@ -1,11 +1,11 @@
 {
   "itm_name": "UNIVERSALDIMMER I BEFINTLIG DOSA",
   "itm_description": "DIMMER MED TRAPPFUNKTION INSTALLERAD I BEFINTLIG DOSA. FÖR REGLERING AV 2-200 W GLÖDLJUS OCH 2-100 W LED, ELEKTRONISK ELLER KONVENTIONELL TRANSFORMATOR.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/2210UJ-214_W4.jpg",
   "itm_keywords": [
     "ELEKTRONISKA VÄGGAPPARATER",
-	"LJUSREGLERING",
-	"DIMMER"
+    "LJUSREGLERING",
+    "DIMMER"
   ],
   "itm_quantity": 1,
   "itm_comments": [],

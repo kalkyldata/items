@@ -1,14 +1,14 @@
 {
   "itm_name": "DATAKABEL SIAMES KAT 6A F/FTP I KANAL",
   "itm_description": "2X4 PAR SIAMES HALOGENFRI DATAKABEL KAT 6A F/FTP I MATAR-, KABEL-, FÖNSTERBÄNKS- ELLER INSTALLATIONSKANAL",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/25627328.jpg",
   "itm_keywords": [
     "DATAKABEL DUBBEL",
     "DUBBEL DATAKABEL",
     "2 X DATAKABEL",
     "SIAMES DATAKABEL",
     "DATAKABEL TVILLING KAT 6A F/FTP I KANAL",
-	"DATAKABEL DUBBEL"
+    "DATAKABEL DUBBEL"
   ],
   "itm_quantity": 1,
   "itm_comments": [],

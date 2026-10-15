@@ -1,7 +1,7 @@
 {
   "itm_name": "RÖRELSEVAKT PÅ VÄGG",
   "itm_description": "RÖRELSEVAKT MODELL STEINEL IS 2160 IP 54 FÖR INOM- ELLER UTOMHUSBRUK MONTERAD UTANPÅLIGGANDE PÅ VÄGG MED EN LINS SOM DETEKTERAR 120° OCH MED EN RÄCKVIDD PÅ UPP TILL 12 METER. 1 ST POTENTIALFRIKONTAKT. MÖJLIGHET ATT STÄLLA SKYMNINGSNIVÅ OCH EFTERLYSTID DIREKT PÅ RÖRELSEVAKTEN.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/BW220-6847AGM-204-01h-H_W4-1.jpg",
   "itm_keywords": [
     "UTANPÅLIGGANDE APPARATER"
   ],
@@ -27,7 +27,7 @@
     },
     {
       "tsk_name": "RÖRELSEVAKT PÅ VÄGG",
-	  "tsk_work_type": "SV-ATL",
+      "tsk_work_type": "SV-ATL",
       "tsk_work_code": "208502101",
       "tsk_work_description": "UTVÄNDIG APPARAT",
       "tsk_construction_stage": "3",

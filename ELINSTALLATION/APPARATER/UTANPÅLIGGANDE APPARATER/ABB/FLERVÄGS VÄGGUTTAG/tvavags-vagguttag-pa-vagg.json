@@ -1,10 +1,10 @@
 {
   "itm_name": "TVÅVÄGS VÄGGUTTAG PÅ VÄGG",
   "itm_description": "UTANPÅLIGGANDE TVÅVÄGS TVÅPOLIGT VÄGGUTTAG 230 V MED JORD. PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/402EA-side2_W4.jpg",
   "itm_keywords": [
     "Utanpåliggande",
-	"dubbelt"
+    "dubbelt"
   ],
   "itm_quantity": 1,
   "itm_comments": [],

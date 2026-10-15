@@ -1,7 +1,7 @@
 {
   "itm_name": "CEE/IEC/SCHUCKO KOMBIVÄGGUTTAG 400/230 V 16 A PÅ VÄGG",
   "itm_description": "UTANPÅLIGGANDE CEE/IEC FEMPOLIGT RÖTT VÄGGUTTAG 400 V KOMBINERAT MED TVÅPOLIGT SCHUCKO VÄGGUTTAG 16 A MED JORD KAPSLAT IP44 PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL OCH MÄRKSKYLT.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/8861797941278_2416014p_141870_tif.jpg",
   "itm_keywords": [
     "UTANPÅLIGGANDE APPARATER",
     "CEE/IEC VÄGGUTTAG",
@@ -28,7 +28,7 @@
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
-	    {
+    {
       "tsk_name": "CEE/IEC VÄGGUTTAG KOMINATION 400/320 V 16 A PÅ VÄGG",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "208535100",
