@@ -1,7 +1,7 @@
 {
   "itm_name": "FQ 3G2,5 I RÖR PÅ VALV",
   "itm_description": "FQ 3G2,5 i rör i underkantsarmerad valvform inklusive VP-rör och buntband",
-  "itm_image": "images/images_articles/FK.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/FK.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",
@@ -11,7 +11,9 @@
   ],
   "itm_quantity": 1,
   "itm_comments": [
-    { "text": "Arbetskod 207501100-1M: FK RK T O M 2.5KVMM, tid angiven per meter. Bygger på officiell kod 207501100 avser 10 m, officiell tid 0,08 tim. Uträkning: 0,08 tim / 10 m = 0,008 tim/m." }
+    {
+      "text": "Arbetskod 207501100-1M: FK RK T O M 2.5KVMM, tid angiven per meter. Bygger på officiell kod 207501100 avser 10 m, officiell tid 0,08 tim. Uträkning: 0,08 tim / 10 m = 0,008 tim/m."
+    }
   ],
   "itm_tasks": [
     {

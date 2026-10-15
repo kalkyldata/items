@@ -1,18 +1,18 @@
 {
   "itm_name": "FLEXRÖR 16 mm FQ 4G1,5 PÅ PLATTBÄRLAG",
   "itm_description": "HALOGENFRITT FLEXRÖR 16 mm FQ 4G1,5 PÅ PLATTBÄRLAG, FILIGRANBJÄLKLAG ELLER PLANBJÄLKLAG INKLUSIVE BUNTBAND.",
-  "itm_image": "images/images_articles/fkp.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/fkp.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",
-	"KOPPAR",
-	"KOPPARKABEL",
-	"FÖRDRAGEN SLANG",
+    "KOPPAR",
+    "KOPPARKABEL",
+    "FÖRDRAGEN SLANG",
     "FLEXRÖR HALOGENFRI",
     "FÖRDRAGEN",
     "I VALV",
     "PÅ VALV",
-	"I PLATTA"
+    "I PLATTA"
   ],
   "itm_quantity": 1,
   "itm_comments": [],

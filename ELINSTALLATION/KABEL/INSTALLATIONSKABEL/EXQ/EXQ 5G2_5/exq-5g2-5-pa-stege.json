@@ -1,12 +1,12 @@
 {
   "itm_name": "EXQ 5G2,5 PÅ STEGE",
   "itm_description": "EXQ 5G2,5 på vertikal eller horisontell kabelstege eller kabelhylla inklusive buntband.",
-  "itm_image": "images/images_articles/EXQ.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/EXQ.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",
-	"KOPPARKABEL",
-	"KOPPAR",
+    "KOPPARKABEL",
+    "KOPPAR",
     "EKK",
     "VIT",
     "HALOGENFRI",

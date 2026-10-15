@@ -1,7 +1,7 @@
 {
   "itm_name": "RQ 4G10 I RÖR I REGELVERK",
   "itm_description": "RQ 4G10 i infällt rör i vägg med regelverk av stålreglar inklusive VP-rör och klammer",
-  "itm_image": "images/images_articles/rq.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/rq.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",

@@ -4,7 +4,7 @@
   "itm_image": "",
   "itm_keywords": [
     "Inkopplingar",
-	"Anslutning"
+    "Anslutning"
   ],
   "itm_quantity": 1,
   "itm_comments": [],
@@ -43,7 +43,7 @@
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
-	{
+    {
       "tsk_name": "UPPSKALNING KABEL 50-120 mm² MED MANTEL",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "2010514121",

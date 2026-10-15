@@ -1,11 +1,11 @@
 {
   "itm_name": "EQLQ 5G2,5 I KABELSKYDDSRÖR",
   "itm_description": "EQLQ 5G2,5 I KABELSKYDDSRÖR ELLER I BLOCKERAD KANAL.",
-  "itm_image": "images/images_articles/EQLQ_450750V.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/EQLQ_450750V.jpg",
   "itm_keywords": [
     "CPR",
-	"KOPPARKABEL",
-	"KOPPAR",
+    "KOPPARKABEL",
+    "KOPPAR",
     "EKLK",
     "VIT",
     "HALOGENFRI",

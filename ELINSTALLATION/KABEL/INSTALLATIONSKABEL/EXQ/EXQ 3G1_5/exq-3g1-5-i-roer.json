@@ -1,12 +1,12 @@
 {
   "itm_name": "EXQ 3G1,5 I RÖR",
   "itm_description": "EXQ 3G1,5 I BEFINTLIGT RÖR",
-  "itm_image": "images/images_articles/EXQ.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/EXQ.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",
-	"KOPPARKABEL",
-	"KOPPAR",
+    "KOPPARKABEL",
+    "KOPPAR",
     "EKK",
     "VIT",
     "HALOGENFRI",

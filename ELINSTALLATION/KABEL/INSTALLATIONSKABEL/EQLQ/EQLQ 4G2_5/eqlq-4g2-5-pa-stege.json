@@ -1,12 +1,12 @@
 {
   "itm_name": "EQLQ 4G2,5 PÅ STEGE",
   "itm_description": "EQLQ 4G2,5 på vertikal eller horisontell kabelstege eller kabelhylla inklusive buntband.",
-  "itm_image": "images/images_articles/EQLQ_450750V.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/EQLQ_450750V.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",
-	"KOPPARKABEL",
-	"KOPPAR",
+    "KOPPARKABEL",
+    "KOPPAR",
     "EKLK",
     "VIT",
     "HALOGENFRI",
