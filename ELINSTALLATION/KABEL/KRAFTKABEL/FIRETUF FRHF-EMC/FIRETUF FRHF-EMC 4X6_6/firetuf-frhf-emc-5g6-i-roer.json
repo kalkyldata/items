@@ -1,7 +1,7 @@
 {
   "itm_name": "FIRETUF FRHF-EMC 4X6/6 I RÖR",
   "itm_description": "FIRETUF FRHF-EMC 4X6/6. BRANDRESISTENT KABEL. I BEFINTLIGT RÖR",
-  "itm_image": "images/images_articles/Firetuf_FRHF-EMC_06112kV.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/Firetuf_FRHF-EMC_06112kV.jpg",
   "itm_keywords": [
     "KABEL",
     "CPR",

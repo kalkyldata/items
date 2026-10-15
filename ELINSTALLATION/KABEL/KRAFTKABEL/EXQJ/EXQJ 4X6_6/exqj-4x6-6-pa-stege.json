@@ -1,11 +1,11 @@
 {
   "itm_name": "EXQJ 4X6/6 PÅ STEGE",
   "itm_description": "EXQJ 4x6/6 på vertikal eller horisontell kabelstege eller kabelhylla inklusive buntband.",
-  "itm_image": "images/images_articles/ekkj3.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/ekkj3.jpg",
   "itm_keywords": [
     "KABEL",
-	"KOPPAR",
-	"KOPPARKABEL",
+    "KOPPAR",
+    "KOPPARKABEL",
     "CPR",
     "EKKJ",
     "SVART",

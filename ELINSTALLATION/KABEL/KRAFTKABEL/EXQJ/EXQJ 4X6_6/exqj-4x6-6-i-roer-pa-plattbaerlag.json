@@ -1,11 +1,11 @@
 {
   "itm_name": "EXQJ 4X6/6 I RÖR PÅ PLATTBÄRLAG",
   "itm_description": "EXQJ 4X6/6 i rör på plattbärlag, filigranbjälklag eller planbjälklag inklusive VP-rör och buntband.",
-  "itm_image": "images/images_articles/ekkj3.jpg",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/ekkj3.jpg",
   "itm_keywords": [
     "KABEL",
-	"KOPPAR",
-	"KOPPARKABEL",
+    "KOPPAR",
+    "KOPPARKABEL",
     "CPR",
     "EKKJ",
     "SVART",
