@@ -1,12 +1,12 @@
 {
   "itm_name": "STÅLTRÅD PÅ VÄGG",
   "itm_description": "STÅLTRÅD TYP RUNDLEDARE AV VARMFÖRZINKAT STÅL MED DIAMETER 8 MM OCH TVÄRSNITT 50 mm² MONTERAD PÅ BETONG-, ELEMENTBETONG-, TEGEL ELLER LÄTTBETONGVÄGG INKLUSIVE KLAMMER.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/e0681315.jpg",
   "itm_keywords": [
     "POTENTIALUTJÄMNING",
     "SKYDDSUTJÄMNING",
-	"PUS-LINA",
-	"PUS",
+    "PUS-LINA",
+    "PUS",
     "LINA OCH KABEL POTENTIALUTJ."
   ],
   "itm_quantity": 1,
