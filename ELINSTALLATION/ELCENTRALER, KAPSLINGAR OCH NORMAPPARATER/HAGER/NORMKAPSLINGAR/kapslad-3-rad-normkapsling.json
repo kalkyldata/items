@@ -1,7 +1,7 @@
 {
   "itm_name": "KAPSLAD 3 RAD NORMKAPSLING",
   "itm_description": "VIT UTANPÅLIGGANDE NORMKAPSLING 3 RADER 54 MODULER I PLAST KAPSLAD IP54. PÅ VÄGG OAVSETT UNDERLAG INKL UPPSKALNING AV KABEL, INKOPPLING AV LEDARE, FÄSTMATERIAL, GRUPPFÖRTECKNING, FASSKENOR OCH MÄRKNING.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/VE318S.jpg",
   "itm_keywords": [
     "NORMKAPSLINGAR",
     "ELCENTRAL"
@@ -43,7 +43,7 @@
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
-	   {
+    {
       "tsk_name": "ANSLÅ GRUPPFÖRTECKNING",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "",

@@ -1,7 +1,7 @@
 {
   "itm_name": "3 RAD NORMKAPSLING",
   "itm_description": "VIT UTANPÅLIGGANDE NORMKAPSLING 3 RAD 54 MODULER I PLAST. PÅ VÄGG OAVSETT UNDERLAG INKL UPPSKALNING AV KABEL, INKOPPLING AV LEDARE, FÄSTMATERIAL, GRUPPFÖRTECKNING, FASSKENOR OCH MÄRKNING.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/GD318S.jpg",
   "itm_keywords": [
     "NORMKAPSLINGAR",
     "ELCENTRAL"
@@ -60,7 +60,7 @@
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
-	{
+    {
       "tsk_name": "ANSLÅ GRUPPFÖRTECKNING",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "",
@@ -77,7 +77,7 @@
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
-	{
+    {
       "tsk_name": "UPPSKALNING AV KABEL",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "2010510101",
@@ -145,7 +145,7 @@
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
-	 {
+    {
       "tsk_name": "TILLKOMMANDE MODULER",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "209519110",

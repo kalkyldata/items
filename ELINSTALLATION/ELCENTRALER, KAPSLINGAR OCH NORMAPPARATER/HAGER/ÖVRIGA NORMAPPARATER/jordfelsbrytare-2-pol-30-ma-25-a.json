@@ -1,11 +1,11 @@
 {
   "itm_name": "JORDFELSBRYTARE 2-POL 30 mA 25 A",
   "itm_description": "2-POLIG JORDFELSBRYTARE 30 mA 25 A PÅ DINSKENA.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/CDA225R.jpg",
   "itm_keywords": [
     "ÖVRIGA NORMAPPARATER",
-	"JFB",
-	"RCCB"
+    "JFB",
+    "RCCB"
   ],
   "itm_quantity": 1,
   "itm_comments": [],

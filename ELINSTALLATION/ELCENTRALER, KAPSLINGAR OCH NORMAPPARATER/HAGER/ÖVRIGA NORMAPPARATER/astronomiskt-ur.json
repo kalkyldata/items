@@ -1,11 +1,11 @@
 {
   "itm_name": "ASTRONOMISKT UR FÖR DIN-MONTAGE",
   "itm_description": "2-KANALIGT ASTROUR 230 V MED 10 A POTENTIALFRI VÄXLANDE KONTAKT PÅ DINSKENA.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/EE181.jpg",
   "itm_keywords": [
     "ÖVRIGA NORMAPPARATER",
     "ASTROUR",
-	"ASTRO-UR"
+    "ASTRO-UR"
   ],
   "itm_quantity": 1,
   "itm_comments": [],

@@ -1,11 +1,11 @@
 {
   "itm_name": "JORDFELSBRYTARE 4-POL 30 mA 40 A",
   "itm_description": "",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/CDA425R.jpg",
   "itm_keywords": [
     "ÖVRIGA NORMAPPARATER",
-	"JFB",
-	"RCCB"
+    "JFB",
+    "RCCB"
   ],
   "itm_quantity": 1,
   "itm_comments": [],

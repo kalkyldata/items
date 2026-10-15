@@ -1,11 +1,11 @@
 {
   "itm_name": "40 A HUVUDBRYTARE 3-POL",
   "itm_description": "3-POLIG 40 A HUVUDBRYTARE PÅ DINSKENA.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/HA302S.jpg",
   "itm_keywords": [
     "ÖVRIGA NORMAPPARATER",
-	"LASTBRYTARE",
-	"DIN-MONTERAD"
+    "LASTBRYTARE",
+    "DIN-MONTERAD"
   ],
   "itm_quantity": 1,
   "itm_comments": [],

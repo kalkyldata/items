@@ -1,7 +1,7 @@
 {
   "itm_name": "1 RAD NORMKAPSLING",
   "itm_description": "VIT UTANPÅLIGGANDE NORMKAPSLING 1 RAD 18 MODULER I PLAST. PÅ VÄGG OAVSETT UNDERLAG INKL UPPSKALNING AV KABEL, INKOPPLING AV LEDARE, FÄSTMATERIAL, GRUPPFÖRTECKNING, FASSKENA OCH MÄRKNING.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/GD118S.jpg",
   "itm_keywords": [
     "NORMKAPSLINGAR",
     "ELCENTRAL"
@@ -60,7 +60,7 @@
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
-	   {
+    {
       "tsk_name": "ANSLÅ GRUPPFÖRTECKNING",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "",
