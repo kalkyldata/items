@@ -1,16 +1,16 @@
 {
   "itm_name": "KOPPLINGSBOX 6 mm² PÅ VÄGG",
   "itm_description": "UTANPÅLIGGANDE HALOGENFRI KOPPLINGSBOX MAX LEDARAREA 6 mm² KAPSLAD IP66 PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL, FÖRSKRUVNINGAR OCH KABELKOPPLINGAR.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/e1438480.jpg",
   "itm_keywords": [
     "UTANPÅLIGGANDE DOSOR",
     "LITEN KOPPLINGSBOX PÅ VÄGG",
-	"STOR DOSA",
-	"STOR KOPPLINGSDOSA",
-	"STÖRRE KOPPLINGSDOSA",
-	"KOPPLINGSLÅDA",
-	"DAMMSKYDDAD",
-	"FUKTSKYDDAD"
+    "STOR DOSA",
+    "STOR KOPPLINGSDOSA",
+    "STÖRRE KOPPLINGSDOSA",
+    "KOPPLINGSLÅDA",
+    "DAMMSKYDDAD",
+    "FUKTSKYDDAD"
   ],
   "itm_quantity": 1,
   "itm_comments": [],

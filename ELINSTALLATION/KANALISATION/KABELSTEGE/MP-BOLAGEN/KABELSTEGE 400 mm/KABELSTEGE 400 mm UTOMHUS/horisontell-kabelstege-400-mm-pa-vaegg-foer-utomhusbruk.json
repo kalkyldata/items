@@ -1,7 +1,7 @@
 {
   "itm_name": "HORISONTELL KABELSTEGE 400 mm PÅ VÄGG FÖR UTOMHUSBRUK",
   "itm_description": "HORISONTELL KABELSTEGE 400 mm PÅ VÄGG FÖR UTOMHUSBRUK PÅ BETONG INKLUSIVE FÄSTMATERIAL. PER METER.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/e1115063.jpg",
   "itm_keywords": [
     "UTOMHUS",
     "UTOMHUSINSTALLATION",
@@ -17,7 +17,7 @@
   ],
   "itm_quantity": 1,
   "itm_comments": [],
-   "itm_tasks": [
+  "itm_tasks": [
     {
       "tsk_name": "KABELSTEGE 400 mm UTOMHUS",
       "tsk_comments": [],

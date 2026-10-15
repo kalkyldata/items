@@ -1,10 +1,10 @@
 {
   "itm_name": "BRANDSKYDDSPLATTA FÖR INFÄLLD KOPPLINGSDOSA",
   "itm_description": "BRANDSKYDDSPLATTA FÖR INFÄLLD KOPPLINGSDOSA.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/e1424408.jpg",
   "itm_keywords": [
     "TILLBEHÖR INFÄLLDA DOSOR",
-	"EI30"
+    "EI30"
   ],
   "itm_quantity": 1,
   "itm_comments": [],

@@ -1,12 +1,12 @@
 {
   "itm_name": "ROT-APPARATDOSA I VÄGG",
-  "itm_description": "INFÄLLD HALOGENFRI ROT-APPARATDOSA 74 mm I DIAMETER. MONTERAD I SKIVÄGG MED TJOCKLEK MELLAN 9 - 39 mm INKLUSIVE HÅLTAGNING.", 
-  "itm_image": "",
+  "itm_description": "INFÄLLD HALOGENFRI ROT-APPARATDOSA 74 mm I DIAMETER. MONTERAD I SKIVÄGG MED TJOCKLEK MELLAN 9 - 39 mm INKLUSIVE HÅLTAGNING.",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/1422322.jpg",
   "itm_keywords": [
     "INFÄLLDA DOSOR",
-	"SENIL",
-	"SENILDOSA",
-	"ROT-DOSA",
+    "SENIL",
+    "SENILDOSA",
+    "ROT-DOSA",
     "ROTDOSA"
   ],
   "itm_quantity": 1,

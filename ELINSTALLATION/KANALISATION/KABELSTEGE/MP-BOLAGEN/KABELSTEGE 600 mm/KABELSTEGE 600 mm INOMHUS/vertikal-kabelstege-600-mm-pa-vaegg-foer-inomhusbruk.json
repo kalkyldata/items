@@ -1,7 +1,7 @@
 {
   "itm_name": "VERTIKAL KABELSTEGE 600 mm PÅ VÄGG FÖR INOMHUSBRUK",
   "itm_description": "VERTIKAL KABELSTEGE 600 mm PÅ VÄGG FÖR INOMHUSBRUK PÅ BETONG INKLUSIVE FÄSTMATERIAL. PER METER.",
-  "itm_image": "",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/e1115063.jpg",
   "itm_keywords": [
     "KABELSTEGE 600 mm INOMHUS",
     "INOMHUS",
@@ -14,7 +14,7 @@
   ],
   "itm_quantity": 1,
   "itm_comments": [],
-   "itm_tasks": [
+  "itm_tasks": [
     {
       "tsk_name": "KABELSTEGE 600 mm INOMHUS",
       "tsk_comments": [],
