@@ -7,7 +7,9 @@ VAD GÖR DETTA SCRIPT?
 Detta är ett internt verktyg.
 Det är, i första hand, publicerat på Github för versionshantering.
 
-Kontrollerar era "item-filer" (JSON) mot två listor:
+Kontrollerar era "item-filer" (JSON) på tre sätt. Först kontrolleras själva
+JSON-strukturen (se STRUKTURKONTROLL nedan), därefter kontrolleras innehållet
+mot två listor:
 
   1. ARTIKELNUMMER (material): kontrollerar att alla artikelnummer som
      används (tsk_material_number, där tsk_material_type = "SV-ENR" som
@@ -20,7 +22,7 @@ Kontrollerar era "item-filer" (JSON) mot två listor:
      och om de i så fall är AKTIVA eller UTGÅNGNA (styrs av kolumnen
      tsk_work_task_valid i den listan).
 
-Båda kontrollerna görs i samma körning och sammanfattas i EN .txt-rapport.
+Alla kontroller görs i samma körning och sammanfattas i EN .txt-rapport.
 Arbetskodskontrollen är valfri - saknas arbetskodslistan hoppas den delen
 bara över och du får fortfarande en fullständig artikelnummer-rapport.
 
@@ -87,6 +89,38 @@ SÅ HÄR ANVÄNDER DU DET (enklaste sättet)
 
 
 -----------------------------------------------------------------------
+STRUKTURKONTROLL (körs alltid, kan stängas av med --skip-structure)
+-----------------------------------------------------------------------
+Varje item-fil kontrolleras innan innehållet jämförs mot listorna, så att
+korrupta filer upptäcks INNAN uppladdning. Kontrollen omfattar:
+
+  - JSON-syntax: saknat komma, extra komma före ] eller }, saknade
+    citattecken/kolon, extra text efter slutet. Rapporten visar raden med
+    felet och raden före (ett saknat komma rapporteras av Python på NÄSTA
+    rad), samt ett tips om troligt fel.
+  - Kodning: filen ska vara giltig UTF-8. BOM ger varning, trasiga tecken
+    (t.ex. "Ã¤" eller "?" mitt i ord) flaggas.
+  - Dubbla nycklar i samma objekt (json.load ignorerar dessa tyst).
+  - Obligatoriska fält och datatyper, både på toppnivå och i varje task.
+    Okända fält flaggas (stavfel, t.ex. "tsk_materal_name").
+  - Logik: artikelnummer utan materialtyp, arbetskod utan arbetstyp eller
+    med 0 timmar, negativa tal, tom itm_tasks, tom enhet m.m.
+  - Samma itm_name i flera filer.
+  - Anpassat efter n8n-flödet (noderna "Avkoda & Validera" och "Skapa
+    Metadata Skelett"): NaN/Infinity avvisas (Python tillåter dem, JavaScript
+    inte), itm_keywords måste vara lista med text, itm_tasks måste vara lista
+    av objekt, tsk_material_name måste vara text, och tal skrivna som text med
+    decimalkomma (t.ex. "3,5") flaggas eftersom parseFloat tyst läser det som 3.
+
+Resultatet kommer som DEL 1 i rapporten, med nivåerna FEL och VARNING.
+Scriptet avslutas med exitkod 1 om någon fil har FEL (eller inte kan läsas
+som JSON), annars 0. Varningar påverkar inte exitkoden.
+Filer som inte går att tolka som JSON hoppas över i artikel-/arbetskods-
+kontrollen och listas under "FILER SOM INTE KUNDE LÄSAS". Filer som går att
+läsa men har strukturfel/varningar kontrolleras fortfarande mot listorna.
+
+
+-----------------------------------------------------------------------
 AVANCERAD ANVÄNDNING (valfria flaggor)
 -----------------------------------------------------------------------
 Du behöver ALDRIG ange dessa - de finns bara om du vill styra något
@@ -119,6 +153,10 @@ manuellt:
     --skip-worktypes
         Hoppa över arbetskodskontrollen helt, även om en arbetskodslista
         skulle hittas automatiskt.
+
+    --skip-structure
+        Hoppa över strukturkontrollen (fält, typer, logik, dubbletter).
+        JSON-syntaxfel rapporteras ändå, eftersom filen då inte kan läsas.
 
 Exempel med alla flaggor:
 
@@ -245,6 +283,7 @@ import argparse
 import csv
 import json
 import os
+import re
 import sys
 from collections import defaultdict
 from datetime import datetime
@@ -443,10 +482,351 @@ def status_bucket(status):
 
 
 # ---------------------------------------------------------------------------
+# Strukturkontroll av item-filer (JSON)
+# ---------------------------------------------------------------------------
+# Schemat nedan är härlett från era exempelfiler. Justera TASK_REQUIRED,
+# TASK_OPTIONAL, ITEM_REQUIRED och KNOWN_UNITS om strukturen ändras.
+# FEL     = filen bör inte laddas upp (korrupt JSON, saknade fält, fel typ ...)
+# VARNING = ser misstänkt ut men är inte säkert fel (t.ex. '?' i namn)
+# ---------------------------------------------------------------------------
+
+NUM = (int, float)
+
+ITEM_REQUIRED = {
+    "itm_name": str,
+    "itm_description": str,
+    "itm_image": str,
+    "itm_keywords": list,
+    "itm_quantity": NUM,
+    "itm_comments": list,
+    "itm_tasks": list,
+}
+
+TASK_REQUIRED = {
+    "tsk_name": str,
+    "tsk_work_type": str,
+    "tsk_work_code": str,
+    "tsk_work_description": str,
+    "tsk_construction_stage": str,
+    "tsk_quantity_unit": str,
+    "tsk_total_quantity": NUM,
+    "tsk_work_task_duration": NUM,
+    "tsk_material_number": str,
+    "tsk_material_name": str,
+    "tsk_material_type": str,
+    "tsk_material_amount": NUM,
+    "tsk_material_user_price": NUM,
+    "tsk_resource_type": str,
+    "tsk_comments": list,
+}
+
+TASK_OPTIONAL = {
+    "tsk_material_url": str,
+    "tsk_material_supplier": str,
+}
+
+KNOWN_UNITS = {"st", "m", "m2", "m3", "kg", "h", "tim", "förp", "frp", "set"}  # varning om annat
+
+MOJIBAKE = re.compile(r"Ã[¤¥¶„…–]|Ã\u0085|Â |\ufffd")
+
+
+# ---------------------------------------------------------------------------
+# Hjälpare
+# ---------------------------------------------------------------------------
+class StructureReport:
+    def __init__(self):
+        self.errors = []
+        self.warnings = []
+
+    def err(self, msg):
+        self.errors.append(msg)
+
+    def warn(self, msg):
+        self.warnings.append(msg)
+
+
+def type_name(t):
+    if isinstance(t, tuple):
+        return "tal"
+    return {str: "text", list: "lista", dict: "objekt"}.get(t, t.__name__)
+
+
+def is_type(value, expected):
+    # bool är en int i Python men ska inte godkännas som tal
+    if isinstance(value, bool):
+        return False
+    return isinstance(value, expected)
+
+
+def reject_constant(name):
+    """Python accepterar NaN/Infinity i JSON, men JavaScript (n8n) JSON.parse gör det inte."""
+    raise ValueError(f"'{name}' är inte giltig JSON (JavaScript/n8n avvisar det). Använd ett vanligt tal eller null.")
+
+
+NUMERIC_TEXT = re.compile(r"\s*-?\d+(\.\d+)?\s*")
+COMMA_DECIMAL = re.compile(r"\s*-?\d+,\d+\s*")
+
+
+def reject_duplicates(pairs):
+    """object_pairs_hook som hittar dubbla nycklar (json.load tiger annars)."""
+    seen = {}
+    dups = []
+    for k, v in pairs:
+        if k in seen:
+            dups.append(k)
+        seen[k] = v
+    if dups:
+        seen["__duplicate_keys__"] = dups
+    return seen
+
+
+def explain_json_error(text, e):
+    """Visar raden med fel + raden före (saknat komma rapporteras ofta på NÄSTA rad)."""
+    lines = text.splitlines()
+    ln = e.lineno
+    out = [f"JSON-syntaxfel rad {e.lineno}, kolumn {e.colno}: {e.msg}"]
+    for i in range(max(1, ln - 2), min(len(lines), ln) + 1):
+        marker = ">>" if i == ln else "  "
+        out.append(f"    {marker} {i:4d} | {lines[i - 1]}")
+        if i == ln:
+            out.append("         " + " " * (e.colno + 5) + "^")
+    hint = None
+    prev_line = lines[ln - 2].rstrip() if 2 <= ln <= len(lines) + 1 else ""
+    cur_line = lines[ln - 1].lstrip() if 1 <= ln <= len(lines) else ""
+    if prev_line.endswith(",") and cur_line[:1] in ("]", "}"):
+        hint = (f"Överflödigt komma sist på rad {ln - 1} (före {cur_line[:1]}). "
+                "Ta bort kommatecknet - sista posten i en lista/objekt ska inte ha komma.")
+    elif "Expecting ',' delimiter" in e.msg:
+        hint = "Troligen saknas ett komma sist på raden OVAN (eller en stängande ] / } )."
+    elif "Expecting property name" in e.msg:
+        hint = "Troligen ett överflödigt komma före } eller ] (trailing comma)."
+    elif "Expecting value" in e.msg:
+        hint = "Värde saknas, eller överflödigt komma/ofullständig fil."
+    elif "Unterminated string" in e.msg or "Invalid control character" in e.msg:
+        hint = "Citattecken saknas, eller radbrytning mitt i en text."
+    elif "Extra data" in e.msg:
+        hint = "Text efter att JSON-objektet avslutats (extra } eller dubbelklistrat innehåll)."
+    elif "Expecting ':' delimiter" in e.msg:
+        hint = "Kolon saknas mellan nyckel och värde."
+    if hint:
+        out.append("    Tips: " + hint)
+    return "\n".join(out)
+
+
+def check_text(label, value, rep, where):
+    if not isinstance(value, str):
+        return
+    if MOJIBAKE.search(value):
+        rep.err(f"{where}: {label} innehåller trasiga tecken (kodningsfel): {value!r}")
+    elif "?" in value and re.search(r"\w\?\w|\w\?\s|\w\?$", value):
+        rep.warn(f"{where}: {label} innehåller '?' mitt i ord - tappat å/ä/ö? {value!r}")
+    if value != value.strip():
+        rep.warn(f"{where}: {label} har inledande/avslutande mellanslag: {value!r}")
+    if "  " in value:
+        rep.warn(f"{where}: {label} har dubbla mellanslag: {value!r}")
+    if re.search(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", value):
+        rep.err(f"{where}: {label} innehåller styrtecken")
+
+
+# ---------------------------------------------------------------------------
+# Kontroll av en fil
+# ---------------------------------------------------------------------------
+def check_item_structure(path):
+    rep = StructureReport()
+
+    # 1. Läs bytes, kontrollera kodning
+    try:
+        raw = open(path, "rb").read()
+    except OSError as e:
+        rep.err(f"Kan inte öppna filen: {e}")
+        return rep, None
+    if not raw.strip():
+        rep.err("Filen är tom.")
+        return rep, None
+    if raw.startswith(b"\xef\xbb\xbf"):
+        rep.warn("Filen har BOM (UTF-8 med signatur). Spara som 'UTF-8' utan BOM om uppladdningen krånglar.")
+        raw = raw[3:]
+    try:
+        text = raw.decode("utf-8")
+    except UnicodeDecodeError as e:
+        rep.err(f"Filen är inte giltig UTF-8 (byte {e.start}). Spara om som UTF-8. "
+                f"(Troligen Windows-1252/Latin-1.)")
+        return rep, None
+
+    # 2. Parsa JSON
+    try:
+        data = json.loads(text, object_pairs_hook=reject_duplicates, parse_constant=reject_constant)
+    except json.JSONDecodeError as e:
+        rep.err(explain_json_error(text, e))
+        return rep, None
+    except ValueError as e:
+        rep.err(str(e))
+        return rep, None
+
+    # 3. Toppnivå
+    if not isinstance(data, dict):
+        rep.err(f"Toppnivån ska vara ett objekt {{...}}, inte {type(data).__name__}.")
+        return rep, None
+
+    walk_duplicates(data, rep, "toppnivå")
+
+    for key, expected in ITEM_REQUIRED.items():
+        if key not in data:
+            rep.err(f"Saknar obligatoriskt fält '{key}'.")
+        elif not is_type(data[key], expected):
+            rep.err(f"Fältet '{key}' ska vara {type_name(expected)}, är {type(data[key]).__name__}.")
+
+    known = set(ITEM_REQUIRED) | {"__duplicate_keys__"}
+    for key in data:
+        if key not in known:
+            rep.warn(f"Okänt fält på toppnivå: '{key}' (stavfel?).")
+
+    for k in ("itm_name", "itm_description"):
+        if isinstance(data.get(k), str):
+            if not data[k].strip():
+                rep.err(f"'{k}' är tomt.")
+            check_text(k, data[k], rep, "toppnivå")
+
+    if isinstance(data.get("itm_keywords"), list):
+        for i, kw in enumerate(data["itm_keywords"]):
+            if not isinstance(kw, str) or not kw.strip():
+                rep.err(f"itm_keywords[{i}] ska vara icke-tom text, är {kw!r}.")
+        if not data["itm_keywords"]:
+            rep.warn("itm_keywords är tom lista.")
+
+    img = data.get("itm_image")
+    if isinstance(img, str) and img and not re.match(r"^https?://\S+\.(jpg|jpeg|png|webp|gif)$", img, re.I):
+        rep.warn(f"itm_image ser inte ut som en bild-URL: {img!r}")
+    if isinstance(img, str) and " " in img:
+        rep.err(f"itm_image innehåller mellanslag: {img!r}")
+
+    if isinstance(data.get("itm_quantity"), NUM) and not isinstance(data.get("itm_quantity"), bool):
+        if data["itm_quantity"] <= 0:
+            rep.err(f"itm_quantity ska vara > 0, är {data['itm_quantity']}.")
+
+    # 4. Tasks
+    tasks = data.get("itm_tasks")
+    if isinstance(tasks, list):
+        if not tasks:
+            rep.err("itm_tasks är en tom lista.")
+        for i, task in enumerate(tasks):
+            check_task(task, i, rep)
+
+    return rep, data
+
+
+def walk_duplicates(obj, rep, where):
+    if isinstance(obj, dict):
+        if "__duplicate_keys__" in obj:
+            rep.err(f"Dubbla nycklar i {where}: {obj['__duplicate_keys__']}")
+            del obj["__duplicate_keys__"]
+        for k, v in obj.items():
+            walk_duplicates(v, rep, f"{where}.{k}")
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            walk_duplicates(v, rep, f"{where}[{i}]")
+
+
+def check_task(task, i, rep):
+    name = task.get("tsk_name") if isinstance(task, dict) else None
+    where = f"itm_tasks[{i}]" + (f" ({name.strip()})" if isinstance(name, str) and name.strip() else "")
+
+    if not isinstance(task, dict):
+        rep.err(f"{where}: ska vara ett objekt, är {type(task).__name__}.")
+        return
+
+    for key, expected in TASK_REQUIRED.items():
+        if key not in task:
+            rep.err(f"{where}: saknar fält '{key}'.")
+        elif not is_type(task[key], expected):
+            v = task[key]
+            if expected is NUM and isinstance(v, str) and COMMA_DECIMAL.fullmatch(v):
+                rep.err(f"{where}: '{key}' är text med decimalkomma ({v!r}). "
+                        f"n8n:s parseFloat läser det som {v.split(',')[0].strip()} - decimalerna försvinner tyst. Använd punkt och skriv som tal.")
+            elif expected is NUM and isinstance(v, str) and NUMERIC_TEXT.fullmatch(v):
+                rep.warn(f"{where}: '{key}' är text ({v!r}) men ska vara tal. "
+                         f"n8n tolkar det med parseFloat, men andra steg kan avvisa det.")
+            elif key == "tsk_construction_stage" and is_type(v, NUM):
+                rep.warn(f"{where}: tsk_construction_stage är tal ({v!r}), övriga filer har text (\"{v}\").")
+            else:
+                rep.err(f"{where}: '{key}' ska vara {type_name(expected)}, är "
+                        f"{type(v).__name__} ({v!r}).")
+    for key, expected in TASK_OPTIONAL.items():
+        if key in task and not is_type(task[key], expected):
+            rep.err(f"{where}: '{key}' ska vara {type_name(expected)}, är {type(task[key]).__name__}.")
+
+    known = set(TASK_REQUIRED) | set(TASK_OPTIONAL)
+    for key in task:
+        if key not in known:
+            rep.warn(f"{where}: okänt fält '{key}' (stavfel?).")
+
+    g = task.get  # kortare
+
+    # Textkvalitet
+    for k in ("tsk_name", "tsk_work_description", "tsk_material_name"):
+        check_text(k, g(k), rep, where)
+
+    if isinstance(g("tsk_name"), str) and not g("tsk_name").strip():
+        rep.err(f"{where}: tsk_name är tomt.")
+
+    # Tal
+    for k in ("tsk_total_quantity", "tsk_work_task_duration", "tsk_material_amount", "tsk_material_user_price"):
+        v = g(k)
+        if is_type(v, NUM):
+            if v != v or v in (float("inf"), float("-inf")):
+                rep.err(f"{where}: {k} är inte ett giltigt tal.")
+            elif v < 0:
+                rep.err(f"{where}: {k} är negativt ({v}).")
+    if is_type(g("tsk_total_quantity"), NUM) and g("tsk_total_quantity") == 0:
+        rep.warn(f"{where}: tsk_total_quantity är 0.")
+
+    # Logiska samband
+    mat_no = (g("tsk_material_number") or "").strip() if isinstance(g("tsk_material_number"), str) else None
+    mat_type = (g("tsk_material_type") or "").strip() if isinstance(g("tsk_material_type"), str) else None
+    work_code = (g("tsk_work_code") or "").strip() if isinstance(g("tsk_work_code"), str) else None
+    work_type = (g("tsk_work_type") or "").strip() if isinstance(g("tsk_work_type"), str) else None
+    dur = g("tsk_work_task_duration")
+
+    if isinstance(g("tsk_material_name"), str) and g("tsk_material_name").strip() \
+            and is_type(g("tsk_material_amount"), NUM) and g("tsk_material_amount") == 0:
+        rep.warn(f"{where}: materialnamn finns men tsk_material_amount = 0 (beräknad kvantitet blir 0 i flödet).")
+    if mat_no and not mat_type:
+        rep.err(f"{where}: har artikelnummer {mat_no} men tom tsk_material_type.")
+    if mat_no and not g("tsk_material_name"):
+        rep.warn(f"{where}: artikelnummer {mat_no} saknar materialnamn.")
+    if mat_no and mat_no != "" and not re.fullmatch(r"[A-Za-z0-9\-_.]+", mat_no):
+        rep.warn(f"{where}: ovanligt tecken i artikelnummer {mat_no!r}.")
+    if work_code and not work_type:
+        rep.err(f"{where}: har arbetskod {work_code} men tom tsk_work_type.")
+    if work_code and not re.fullmatch(r"\d+", work_code):
+        rep.warn(f"{where}: arbetskod {work_code!r} är inte enbart siffror.")
+    if work_code and is_type(dur, NUM) and dur == 0:
+        rep.warn(f"{where}: arbetskod {work_code} men tsk_work_task_duration = 0.")
+    if not work_code and is_type(dur, NUM) and dur > 0:
+        rep.warn(f"{where}: tid {dur} h angiven men arbetskod saknas.")
+    if not mat_no and is_type(g("tsk_material_user_price"), NUM) and g("tsk_material_user_price") > 0:
+        rep.warn(f"{where}: pris angivet men artikelnummer saknas.")
+    if not (g("tsk_resource_type") or "").strip() if isinstance(g("tsk_resource_type"), str) else False:
+        rep.warn(f"{where}: tsk_resource_type är tomt.")
+
+    unit = g("tsk_quantity_unit")
+    if isinstance(unit, str):
+        if not unit.strip():
+            rep.err(f"{where}: tsk_quantity_unit är tomt.")
+        elif unit.strip().lower() not in KNOWN_UNITS:
+            rep.warn(f"{where}: ovanlig enhet {unit!r}.")
+
+
+# ---------------------------------------------------------------------------
 # Läsning av item-filer (JSON)
 # ---------------------------------------------------------------------------
 
-def collect_item_file_data(item_files, material_type, work_type):
+def _s(value):
+    """Säker text-konvertering: None -> '', annars str(värde).strip(). Kraschar aldrig på tal/listor."""
+    return "" if value is None else str(value).strip()
+
+
+def collect_item_file_data(item_files, material_type, work_type, check_structure=True):
     """
     Läser item-filerna EN gång och samlar både använda artikelnummer och
     använda arbetskoder samtidigt.
@@ -459,6 +839,9 @@ def collect_item_file_data(item_files, material_type, work_type):
       checked_count: antal item-filer som kunde läsas
       skipped_files: lista med (fil, felmeddelande) för filer som inte
                      kunde tolkas som giltig JSON
+      structure_results: dict {fil: StructureReport} för filer som kunde
+                     läsas men har strukturfel/varningar
+      name_map: dict {itm_name (gemener): [filer]} för dubblettkontroll
     """
     used_numbers = set()
     material_usage_map = defaultdict(list)
@@ -466,16 +849,21 @@ def collect_item_file_data(item_files, material_type, work_type):
     work_usage_map = defaultdict(list)
     checked_count = 0
     skipped_files = []
+    structure_results = {}
+    name_map = defaultdict(list)
 
     for path in item_files:
-        try:
-            with open(path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        except Exception as e:
-            skipped_files.append((path, f"Kunde inte läsas som JSON: {e}"))
+        rep, data = check_item_structure(path)
+        if data is None:
+            skipped_files.append((path, "\n".join(rep.errors) or "Okänt fel vid inläsning"))
             continue
 
         checked_count += 1
+        if check_structure:
+            if rep.errors or rep.warnings:
+                structure_results[path] = rep
+            if isinstance(data.get("itm_name"), str):
+                name_map[data["itm_name"].strip().casefold()].append(path)
         tasks = data.get("itm_tasks", [])
         if not isinstance(tasks, list):
             continue
@@ -485,28 +873,28 @@ def collect_item_file_data(item_files, material_type, work_type):
                 continue
 
             # --- Artikelnummer (material) ---
-            t_type = (task.get("tsk_material_type") or "").strip()
+            t_type = _s(task.get("tsk_material_type"))
             t_number = normalize_number(task.get("tsk_material_number"))
             if t_type == material_type and t_number:
                 used_numbers.add(t_number)
                 material_usage_map[t_number].append(
                     (
                         path,
-                        (task.get("tsk_material_name") or "").strip(),
-                        (task.get("tsk_name") or "").strip(),
+                        _s(task.get("tsk_material_name")),
+                        _s(task.get("tsk_name")),
                     )
                 )
 
             # --- Arbetskod (arbetstid) ---
-            w_type = (task.get("tsk_work_type") or "").strip()
+            w_type = _s(task.get("tsk_work_type"))
             w_code = normalize_code(task.get("tsk_work_code"))
             if w_type == work_type and w_code:
                 used_work_codes.add(w_code)
                 work_usage_map[w_code].append(
                     (
                         path,
-                        (task.get("tsk_work_description") or "").strip(),
-                        (task.get("tsk_name") or "").strip(),
+                        _s(task.get("tsk_work_description")),
+                        _s(task.get("tsk_name")),
                     )
                 )
 
@@ -517,6 +905,8 @@ def collect_item_file_data(item_files, material_type, work_type):
         work_usage_map,
         checked_count,
         skipped_files,
+        structure_results,
+        name_map,
     )
 
 
@@ -722,12 +1112,15 @@ def write_report(
     total_wt_rows,
     matching_wt_rows,
     wt_encoding,
+    structure_results=None,
+    name_map=None,
+    structure_enabled=True,
 ):
     missing_numbers = sorted(used_numbers - master_numbers)
     found_numbers = used_numbers & master_numbers
 
     with open(output_path, "w", encoding="utf-8") as out:
-        out.write("KONTROLLRAPPORT: ARTIKELNUMMER OCH ARBETSKODER\n")
+        out.write("KONTROLLRAPPORT: STRUKTUR, ARTIKELNUMMER OCH ARBETSKODER\n")
         out.write("=" * 60 + "\n\n")
         out.write(f"Kontroll körd:      {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         out.write(f"Item-filer sökta i: {items_root}\n")
@@ -738,12 +1131,60 @@ def write_report(
             out.write("FILER SOM INTE KUNDE LÄSAS\n")
             out.write("-" * 60 + "\n")
             for path, err in skipped_files:
-                out.write(f"- {path}\n    Fel: {err}\n")
+                err_txt = err.replace("\n", "\n      ")
+                out.write(f"- {path}\n    Fel: {err_txt}\n")
             out.write("\n")
 
-        # ============================= DEL 1: ARTIKELNUMMER =============================
+        # ============================= DEL 1: STRUKTUR =============================
         out.write("=" * 60 + "\n")
-        out.write("DEL 1: ARTIKELNUMMER MOT MASTERPRISLISTA\n")
+        out.write("DEL 1: STRUKTURKONTROLL AV ITEM-FILER\n")
+        out.write("=" * 60 + "\n\n")
+        if not structure_enabled:
+            out.write("Strukturkontrollen var avstängd (--skip-structure).\n\n")
+        else:
+            structure_results = structure_results or {}
+            dup_names = {n: p for n, p in (name_map or {}).items() if len(p) > 1}
+            n_err = sum(1 for r in structure_results.values() if r.errors)
+            n_warn = sum(1 for r in structure_results.values() if not r.errors and r.warnings)
+            n_ok = checked_count - n_err - n_warn
+
+            out.write("SAMMANFATTNING - STRUKTUR\n")
+            out.write("-" * 60 + "\n")
+            out.write(f"Filer med JSON-syntaxfel (ej läsbara):  {len(skipped_files)}  (se ovan)\n")
+            out.write(f"Läsbara filer med strukturFEL:          {n_err}\n")
+            out.write(f"Läsbara filer med endast varningar:     {n_warn}\n")
+            out.write(f"Läsbara filer utan anmärkning:          {n_ok}\n")
+            out.write(f"Itemnamn som förekommer i flera filer:  {len(dup_names)}\n\n")
+
+            out.write("STRUKTURFEL OCH VARNINGAR - DETALJER\n")
+            out.write("-" * 60 + "\n")
+            if not structure_results:
+                out.write("Inga strukturfel eller varningar i läsbara filer.\n\n")
+            else:
+                # filer med fel först, sedan filer med bara varningar
+                ordered = sorted(structure_results.items(),
+                                 key=lambda kv: (not kv[1].errors, kv[0]))
+                for path, rep in ordered:
+                    status = "FEL" if rep.errors else "VARNING"
+                    out.write(f"\n[{status}] {path}\n")
+                    for m in rep.errors:
+                        out.write("  FEL:     " + m.replace("\n", "\n  ") + "\n")
+                    for m in rep.warnings:
+                        out.write("  VARNING: " + m + "\n")
+                out.write("\n")
+
+            if dup_names:
+                out.write("SAMMA ITEMNAMN I FLERA FILER\n")
+                out.write("-" * 60 + "\n")
+                for n, paths in sorted(dup_names.items()):
+                    out.write(f"\n'{n}':\n")
+                    for p in paths:
+                        out.write(f"  - {p}\n")
+                out.write("\n")
+
+        # ============================= DEL 2: ARTIKELNUMMER =============================
+        out.write("=" * 60 + "\n")
+        out.write("DEL 2: ARTIKELNUMMER MOT MASTERPRISLISTA\n")
         out.write("=" * 60 + "\n\n")
         out.write(f"Materialtyp kontrollerad:     {material_type}\n")
         out.write(f"Masterprislista:               {master_csv}\n")
@@ -772,9 +1213,9 @@ def write_report(
                     )
             out.write("\n")
 
-        # ============================= DEL 2: ARBETSKODER ==============================
+        # ============================= DEL 3: ARBETSKODER ==============================
         out.write("=" * 60 + "\n")
-        out.write("DEL 2: ARBETSKODER (ARBETSTID) MOT ARBETSKODSLISTA\n")
+        out.write("DEL 3: ARBETSKODER (ARBETSTID) MOT ARBETSKODSLISTA\n")
         out.write("=" * 60 + "\n\n")
 
         if worktypes_csv is None:
@@ -950,6 +1391,11 @@ def main():
         action="store_true",
         help="Hoppa över arbetskodskontrollen helt.",
     )
+    parser.add_argument(
+        "--skip-structure",
+        action="store_true",
+        help="Hoppa över strukturkontrollen (fält, typer, logik, dubbletter).",
+    )
     args = parser.parse_args()
 
     if args.items_root is None:
@@ -1031,12 +1477,28 @@ def main():
         work_usage_map,
         checked_count,
         skipped_files,
-    ) = collect_item_file_data(item_files, args.material_type, args.work_type)
+        structure_results,
+        name_map,
+    ) = collect_item_file_data(
+        item_files, args.material_type, args.work_type,
+        check_structure=not args.skip_structure,
+    )
     print(f"  Kontrollerade {checked_count} item-filer.")
     print(f"  Hittade {len(used_numbers)} unika artikelnummer ({args.material_type}).")
     print(f"  Hittade {len(used_work_codes)} unika arbetskoder ({args.work_type}).")
     if skipped_files:
         print(f"  OBS: {len(skipped_files)} filer kunde inte läsas (se rapporten för detaljer).")
+    if args.skip_structure:
+        print("Strukturkontroll avstängd (--skip-structure).")
+    else:
+        s_err = sum(1 for r in structure_results.values() if r.errors)
+        s_warn = sum(1 for r in structure_results.values() if not r.errors and r.warnings)
+        s_dups = sum(1 for p in name_map.values() if len(p) > 1)
+        print(
+            f"  Struktur: {len(skipped_files)} ej läsbara (JSON-fel), "
+            f"{s_err} med strukturfel, {s_warn} med varningar, "
+            f"{s_dups} itemnamn i flera filer."
+        )
 
     # --- Läs masterprislista ---
     print(f"Läser masterprislista (kan ta en stund för stora filer): {args.master} ...")
@@ -1102,8 +1564,23 @@ def main():
         total_wt_rows,
         matching_wt_rows,
         wt_encoding,
+        structure_results=structure_results,
+        name_map=name_map,
+        structure_enabled=not args.skip_structure,
     )
     print(f"\nRapport skriven till: {args.output}")
+
+    # --- Slutdom: filer som kan stoppa inläsningen (t.ex. i n8n) ---
+    blocking = len(skipped_files)
+    if not args.skip_structure:
+        blocking += sum(1 for r in structure_results.values() if r.errors)
+    if blocking:
+        print(
+            f"\nSTOPP: {blocking} fil(er) har FEL som kan få inläsningen att haverera. "
+            "Åtgärda dem innan uppladdning (se DEL 1 i rapporten)."
+        )
+        sys.exit(1)
+    print("\nOK: inga filer med blockerande strukturfel.")
 
 
 if __name__ == "__main__":

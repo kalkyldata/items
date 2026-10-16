@@ -1,6 +1,6 @@
 {
   "itm_name": "FÖRRÅD CA 5 KVM - INFÄLLD INSTALLATION MED VP-RÖR PÅ PLATTBÄRLAG",
-  "itm_description": "FÖRRÅD CA 5 KVM. INFÄLLD INSTALLATION PÅ PLATTBÄRLAG MED VP-RÖR. UTFÖRANDE ENLIGT RITNING. INKLUSIVE HALOGENFRIA APPARATER, ARMATURER OCH KABLAGE. APPARATFABRIKAT ABB JUSSI. ARMATURFABRIKAT THORN.",
+  "itm_description": "FÖRRÅD CA 5 KVM. INFÄLLD INSTALLATION PÅ PLATTBÄRLAG MED VP-RÖR. UTFÖRANDE ENLIGT RITNING. INKLUSIVE HALOGENFRIA APPARATER, ARMATURER OCH KABLAGE. APPARATFABRIKAT ABB JUSSI. ARMATURFABRIKAT SG-ARMATUREN.",
   "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/Forradca5kvm.png",
   "itm_keywords": [
     "Totalentreprenad",
@@ -152,7 +152,7 @@
       "tsk_comments": []
     },
     {
-      "tsk_name": "ARMATUR 42 W",
+      "tsk_name": "ARMATUR 10 W",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "2011002110",
       "tsk_work_description": "MONTAGE ARMATUR",
@@ -160,8 +160,8 @@
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 1.0,
       "tsk_work_task_duration": 0.14,
-      "tsk_material_number": "7532270",
-      "tsk_material_name": "AVR4 PC-ARM. 75W VIT",
+      "tsk_material_number": "7502420",
+      "tsk_material_name": "TAKARM VIT 10W LED E27 RONDO",
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 1.0,
       "tsk_material_user_price": 275.0,
@@ -182,23 +182,6 @@
       "tsk_material_type": "SV-ENR",
       "tsk_material_amount": 0.0,
       "tsk_material_user_price": 0.0,
-      "tsk_resource_type": "Electrician",
-      "tsk_comments": []
-    },
-    {
-      "tsk_name": "GLÖDLAMPA 42 W",
-      "tsk_work_type": "SV-ATL",
-      "tsk_work_code": "2011008130",
-      "tsk_work_description": "TILLKOMMANDE DETALJ MONTAGE AV LJUSKÄLLA",
-      "tsk_construction_stage": "4",
-      "tsk_quantity_unit": "st",
-      "tsk_total_quantity": 1.0,
-      "tsk_work_task_duration": 0.02,
-      "tsk_material_number": "8341405",
-      "tsk_material_name": "H NORM 42W E27 KLAR 240V",
-      "tsk_material_type": "SV-ENR",
-      "tsk_material_amount": 1.0,
-      "tsk_material_user_price": 32.8,
       "tsk_resource_type": "Electrician",
       "tsk_comments": []
     },
