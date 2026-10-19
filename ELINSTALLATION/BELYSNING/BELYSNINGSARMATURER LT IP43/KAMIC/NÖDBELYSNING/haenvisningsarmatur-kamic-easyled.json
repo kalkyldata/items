@@ -1,0 +1,81 @@
+{
+  "itm_name": "HÄNVISNINGSARMATUR KAMIC EASY LED",
+  "itm_description": "HÄNVISNINGSARMATUR TYP DS1 MED KASPLINGSKLASS IP20 OCH LÄSAVTÅND 22 M. MED INTERN BATTERIDRIFT, DRIFTTID 1 TIM OCH AUTOMATISKT SJÄLVTEST. MONTERAD I TAK ELLER PÅ VÄGG INOMHUS. FÖR ENKEL- ELLER DUBBELSIDIG HÄNVISNING. INKLUSIVE FÄSTMATERIAL OCH PIKTOGRAM.",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/e7348380.jpg",
+  "itm_keywords": [
+    "Belysningsarmaturer IP20",
+    "Nödbelysning"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "HÄNVISNINGSARMATUR PÅ VÄGG ELLER TAK",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2011002110",
+      "tsk_work_description": "MONTAGE ARMATUR",
+      "tsk_construction_stage": "4",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.14,
+      "tsk_material_number": "7348380",
+      "tsk_material_name": "NÖDB. LED PIL V/H/N EASY LED",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 2360.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "MONTERINGSSKRUV 5,0X32",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "4",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 2.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1534901",
+      "tsk_material_name": "MONT SKRUV TMP-C3 5,0X32",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 286.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "TILLKOMMANDE DETALJ DEMONTAGE OCH MONTAGE KUPA",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2011008101",
+      "tsk_work_description": "TILLKOMMANDE DETALJ DEMONTAGE OCH MONTAGE KUPA",
+      "tsk_construction_stage": "4",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.02,
+      "tsk_material_number": "",
+      "tsk_material_name": "",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.0,
+      "tsk_material_user_price": 0.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "TILLKOMMANDE DETALJ MONTAGE PIKTOGRAM",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2011008100",
+      "tsk_work_description": "TILLKOMMANDE DETALJ MONTAGE PIKTOGRAM",
+      "tsk_construction_stage": "4",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.01,
+      "tsk_material_number": "",
+      "tsk_material_name": "",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.0,
+      "tsk_material_user_price": 0.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}

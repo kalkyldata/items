@@ -1,0 +1,51 @@
+{
+  "itm_name": "HANDSTRÅLKASTARE KAMIC HANDY LED 3 W",
+  "itm_description": "HANDLAMPA TYP PL-850-3W-LI STICKPROPPSANSLUTEN MED KASPLINGSKLASS IP44 OCH FLERA FUNKTIONSLÄGEN. MED INTERN BATTERIDRIFT OCH DRIFTTID 3,5 TIM. MONTERAD PÅ VÄGG INOMHUS. FÖR ENKEL- ELLER DUBBELSIDIG HÄNVISNING. INKLUSIVE FÄSTMATERIAL OCH PIKTOGRAM.",
+  "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/PL-850-3W-LI_image1_800.jpg",
+  "itm_keywords": [
+    "Belysningsarmaturer IP20",
+	"NÄTAVBROTT",
+	"DRIFTRUM",
+	"DRIFTUTRYMME",
+	"ELRUM",
+    "Nödbelysning"
+  ],
+  "itm_quantity": 1,
+  "itm_comments": [],
+  "itm_tasks": [
+    {
+      "tsk_name": "HANDSTRÅLKASTARE PÅ VÄGG",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "2011002110",
+      "tsk_work_description": "MONTAGE ARMATUR",
+      "tsk_construction_stage": "4",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 1.0,
+      "tsk_work_task_duration": 0.14,
+      "tsk_material_number": "7300082",
+      "tsk_material_name": "HANDLAMPA HANDY LED 3W LI PL-850-3W-LI",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 1.0,
+      "tsk_material_user_price": 2360.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    },
+    {
+      "tsk_name": "MONTERINGSSKRUV 5,0X32",
+      "tsk_work_type": "SV-ATL",
+      "tsk_work_code": "",
+      "tsk_work_description": "",
+      "tsk_construction_stage": "4",
+      "tsk_quantity_unit": "st",
+      "tsk_total_quantity": 2.0,
+      "tsk_work_task_duration": 0.0,
+      "tsk_material_number": "1534901",
+      "tsk_material_name": "MONT SKRUV TMP-C3 5,0X32",
+      "tsk_material_type": "SV-ENR",
+      "tsk_material_amount": 0.01,
+      "tsk_material_user_price": 286.0,
+      "tsk_resource_type": "Electrician",
+      "tsk_comments": []
+    }
+  ]
+}
