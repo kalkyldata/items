@@ -1,6 +1,6 @@
 {
   "itm_name": "SPISUTTAG PÅ VÄGG",
-  "itm_description": "UTANPÅLIGGANDE SPISUTTAG 230 V 25A MED JORD FÖR FLATSTIFTSKONTAKTER PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL.",
+  "itm_description": "UTANPÅLIGGANDE SPISUTTAG 230 V 25 A MED JORD FÖR FLATSTIFTSKONTAKTER PÅ BETONG- ELLER TRÄVÄGG INKLUSIVE FÄSTMATERIAL.",
   "itm_image": "https://raw.githubusercontent.com/kalkyldata/items/main/ASSETS/IMAGES/ELINSTALLATION/8803136438302.jpg",
   "itm_keywords": [
     "UTANPÅLIGGANDE APPARATER"
@@ -17,7 +17,7 @@
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "",
       "tsk_work_description": "",
-      "tsk_construction_stage": "3",
+      "tsk_construction_stage": "Montage apparater",
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 2.0,
       "tsk_work_task_duration": 0.0,
@@ -34,7 +34,7 @@
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "208507140",
       "tsk_work_description": "TILLÄGG TILLKOMMANDE FÄSTSKRUV",
-      "tsk_construction_stage": "3",
+      "tsk_construction_stage": "Montage apparater",
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 2.0,
       "tsk_work_task_duration": 0.0,
@@ -51,7 +51,7 @@
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "208502101",
       "tsk_work_description": "UTVÄNDIG APPARAT",
-      "tsk_construction_stage": "3",
+      "tsk_construction_stage": "Montage apparater",
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 1.0,
       "tsk_work_task_duration": 0.18,
