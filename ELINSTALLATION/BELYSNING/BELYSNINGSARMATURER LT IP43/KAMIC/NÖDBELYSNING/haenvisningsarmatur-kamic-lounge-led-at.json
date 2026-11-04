@@ -11,10 +11,10 @@
   "itm_comments": [],
   "itm_tasks": [
     {
-      "tsk_name": "HÄNVISNINGSARMATUR PÅ TAK",
+      "tsk_name": "HÄNVISNINGSARMATUR I VAJER",
       "tsk_work_type": "SV-ATL",
       "tsk_work_code": "2011001110",
-      "tsk_work_description": "WIREMONTERAD ARMATUR T O M 3 KG",
+      "tsk_work_description": "ARMATUR KOMPL 75CM 2 WIREUPPH. T O M 3KG",
       "tsk_construction_stage": "4",
       "tsk_quantity_unit": "st",
       "tsk_total_quantity": 1.0,
